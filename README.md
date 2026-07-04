@@ -130,11 +130,27 @@ All wiki data (items, recipes, bundles, gift preferences, fish info) comes
 from a static offline dump — never scraped live at runtime. The dump is
 checked into the repo and regenerated offline when the game updates.
 
+## Running Phase 1
+
+```bash
+pip install -r requirements.txt
+python -m src.server        # from repo root; binds 127.0.0.1:5310
+```
+
+Build and install the mod (`mod/`) with SMAPI as usual. The mod pings
+`/health` on load — if the server isn't running, the overlay shows "Wiki
+offline" when the hotkey is pressed rather than silently doing nothing.
+
+> **Note:** `data/*.json` currently contains stub data (4 items). Replace with a
+> full wiki dump before using the overlay in actual play — this is a content task
+> tracked separately.
+
 ## Status
 
 - [x] Architecture decided
 - [x] Phase 1 spec approved
-- [ ] Phase 1 implementation
+- [x] Phase 1 implementation
+- [ ] Phase 1 wiki data dump (content task — stub data only)
 - [ ] Phase 1b — NPC hover
 - [ ] Phase 2 — AI chatbot
 - [ ] Phase 3 — Automated fishing

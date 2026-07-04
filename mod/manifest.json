@@ -1,0 +1,10 @@
+{
+  "Name": "Willy's Apprentice",
+  "Author": "Kush",
+  "Version": "0.1.0",
+  "Description": "Hover any item, press Tab for a wiki overlay (bundles, crafting uses, gift preferences).",
+  "UniqueID": "Kush.WillysApprentice",
+  "EntryDll": "WillysApprentice.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

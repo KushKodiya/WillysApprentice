@@ -1,0 +1,19 @@
+[
+  {
+    "id": "maki_roll", "name": "Maki Roll",
+    "yields": "(O)228", "yieldCount": 1,
+    "ingredients": [
+      {"item": "(O)128", "count": 1},
+      {"item": "(O)718", "count": 1}
+    ],
+    "source": "Cooking - The Queen of Sauce"
+  },
+  {
+    "id": "sashimi", "name": "Sashimi",
+    "yields": "(O)227", "yieldCount": 3,
+    "ingredients": [
+      {"item": "(O)128", "count": 1}
+    ],
+    "source": "Cooking - Willy (mail)"
+  }
+]

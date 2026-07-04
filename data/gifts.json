@@ -1,0 +1,30 @@
+{
+  "(O)128": {
+    "loves": ["Sebastian"],
+    "likes": ["Willy", "Elliott"],
+    "neutrals": [],
+    "dislikes": ["Abigail", "Penny"],
+    "hates": []
+  },
+  "(O)16": {
+    "loves": [],
+    "likes": ["Leah"],
+    "neutrals": [],
+    "dislikes": ["Sam", "Vincent"],
+    "hates": []
+  },
+  "(O)258": {
+    "loves": [],
+    "likes": ["Leah", "Elliott", "Harvey"],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(BC)15": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  }
+}

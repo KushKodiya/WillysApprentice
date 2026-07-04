@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ocean_fish", "room": "Fish Tank", "name": "Ocean Fish Bundle",
+    "slotsRequired": 4,
+    "reward": {"item": "(O)397", "count": 1},
+    "items": [
+      {"item": "(O)128", "count": 1, "quality": 0},
+      {"item": "(O)131", "count": 1, "quality": 0},
+      {"item": "(O)130", "count": 1, "quality": 0},
+      {"item": "(O)701", "count": 1, "quality": 0}
+    ]
+  },
+  {
+    "id": "spring_foraging", "room": "Crafts Room", "name": "Spring Foraging Bundle",
+    "slotsRequired": 4,
+    "reward": {"item": "(O)495", "count": 30},
+    "items": [
+      {"item": "(O)16", "count": 1, "quality": 0},
+      {"item": "(O)18", "count": 1, "quality": 0},
+      {"item": "(O)20", "count": 1, "quality": 0},
+      {"item": "(O)22", "count": 1, "quality": 0}
+    ]
+  }
+]

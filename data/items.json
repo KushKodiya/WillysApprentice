@@ -1,0 +1,22 @@
+{
+  "(O)128": {
+    "id": "(O)128", "legacyId": 128, "name": "Pufferfish",
+    "category": "Fish", "description": "Inflates when threatened. Poisonous.",
+    "sellPrice": 200, "edible": true, "energy": -50, "health": -22
+  },
+  "(O)16": {
+    "id": "(O)16", "legacyId": 16, "name": "Wild Horseradish",
+    "category": "Forage", "description": "A spicy root found in the spring.",
+    "sellPrice": 50, "edible": true, "energy": 13, "health": 5
+  },
+  "(O)258": {
+    "id": "(O)258", "legacyId": 258, "name": "Blueberry",
+    "category": "Fruit", "description": "A sweet blue fruit.",
+    "sellPrice": 50, "edible": true, "energy": 18, "health": 8
+  },
+  "(BC)15": {
+    "id": "(BC)15", "legacyId": 15, "name": "Chest",
+    "category": "Crafting", "description": "Store your items in this for future use.",
+    "sellPrice": 0, "edible": false, "energy": 0, "health": 0
+  }
+}
