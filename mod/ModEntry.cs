@@ -17,21 +17,23 @@ public class ModEntry : Mod
 {
     private ModConfig _config = new();
     private WikiClient _client = null!;
+    private IModHelper _helper = null!;
     private readonly OverlayPanel _panel = new();
     private string? _hoveredId;
     // Fetch results enqueued on background thread, drained on main thread in UpdateTicked
-    private readonly ConcurrentQueue<(string Id, ItemData? Item)> _fetchResults = new();
+    private readonly ConcurrentQueue<(string Id, ItemData? Item, bool Offline)> _fetchResults = new();
 
     public override void Entry(IModHelper helper)
     {
+        _helper = helper;
         _config = helper.ReadConfig<ModConfig>();
         _client = new WikiClient(_config.ServerPort);
 
         helper.Events.GameLoop.GameLaunched += OnLaunched;
         helper.Events.GameLoop.UpdateTicked += OnUpdateTicked;
         helper.Events.Input.ButtonPressed += OnButtonPressed;
-        // RenderedHud fires once per frame after world + menus; avoids double-draw
-        helper.Events.Display.RenderedHud += (_, e) => _panel.Draw(e.SpriteBatch);
+        // Rendered fires last in the frame — draws on top of menus
+        helper.Events.Display.Rendered += (_, e) => _panel.Draw(e.SpriteBatch);
     }
 
     private void OnLaunched(object? sender, GameLaunchedEventArgs e)
@@ -52,7 +54,10 @@ public class ModEntry : Mod
         while (_fetchResults.TryDequeue(out var result))
         {
             if (_hoveredId == result.Id && _panel.IsVisible)
-                _panel.ShowItem(result.Item);
+            {
+                if (result.Offline) _panel.ShowOffline();
+                else _panel.ShowItem(result.Item);
+            }
         }
 
         var newId = GetHoveredItemId();
@@ -66,18 +71,17 @@ public class ModEntry : Mod
     {
         if (e.Button != _config.HotKey) return;
         if (!Context.IsWorldReady) return;
+        _helper.Input.Suppress(e.Button); // prevent game from also acting on this key
 
         if (_panel.IsVisible) { _panel.Clear(); return; }
         if (_hoveredId == null) return;
-
-        if (!_client.IsOnline) { _panel.ShowOffline(); return; }
 
         var idToFetch = _hoveredId;
         _panel.ShowLoading(idToFetch);
         Task.Run(async () =>
         {
-            var item = await _client.FetchAsync(idToFetch);
-            _fetchResults.Enqueue((idToFetch, item));
+            var (item, offline) = await _client.FetchAsync(idToFetch);
+            _fetchResults.Enqueue((idToFetch, item, offline));
         });
     }
 

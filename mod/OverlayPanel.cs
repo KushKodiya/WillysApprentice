@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -48,9 +47,8 @@ class OverlayPanel
         if (_state == State.Hidden || _lines.Count == 0) return;
 
         int height = _lines.Count * LineHeight + Pad * 2;
-        var cursor = Game1.getMousePosition();
-        int x = Math.Min(cursor.X + 20, Game1.viewport.Width - Width - 8);
-        int y = Math.Min(cursor.Y + 20, Game1.viewport.Height - height - 8);
+        int x = 8;
+        int y = Game1.viewport.Height - height - 8;
 
         IClickableMenu.drawTextureBox(b, x, y, Width, height, Color.White);
 

@@ -26,22 +26,32 @@ class WikiClient
         catch { IsOnline = false; }
     }
 
-    public async Task<ItemData?> FetchAsync(string qualifiedId)
+    // Returns (item, offline=false) on success or 404, (null, offline=true) on connection failure.
+    // 404s are cached (item absent from dump is a permanent fact); connection failures are not.
+    public async Task<(ItemData? Item, bool Offline)> FetchAsync(string qualifiedId)
     {
-        if (_cache.TryGetValue(qualifiedId, out var cached)) return cached;
+        if (_cache.TryGetValue(qualifiedId, out var cached)) return (cached, false);
         try
         {
             var encoded = Uri.EscapeDataString(qualifiedId);
             var resp = await _http.GetAsync($"{_base}/item/{encoded}");
-            ItemData? item = null;
             if (resp.IsSuccessStatusCode)
             {
                 var json = await resp.Content.ReadAsStringAsync();
-                item = JsonSerializer.Deserialize<ItemData>(json, _json);
+                var item = JsonSerializer.Deserialize<ItemData>(json, _json);
+                _cache[qualifiedId] = item;
+                IsOnline = true;
+                return (item, false);
             }
-            _cache[qualifiedId] = item; // cache null for 404 — data is static
-            return item;
+            // 404 or other HTTP error: server is reachable, item just not in dump
+            _cache[qualifiedId] = null;
+            return (null, false);
         }
-        catch { return null; }
+        catch
+        {
+            // Connection-level failure: server unreachable
+            IsOnline = false;
+            return (null, true); // not cached — may succeed next time
+        }
     }
 }
