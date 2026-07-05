@@ -1,28 +1,7332 @@
 {
-  "(O)128": {
-    "loves": ["Sebastian"],
-    "likes": ["Willy", "Elliott"],
+  "(O)224": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
     "neutrals": [],
-    "dislikes": ["Abigail", "Penny"],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
     "hates": []
   },
-  "(O)16": {
-    "loves": [],
-    "likes": ["Leah"],
+  "(O)426": {
+    "loves": [
+      "Robin",
+      "Leah"
+    ],
+    "likes": [],
     "neutrals": [],
-    "dislikes": ["Sam", "Vincent"],
+    "dislikes": [
+      "Harvey"
+    ],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)636": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
     "hates": []
   },
-  "(O)258": {
-    "loves": [],
-    "likes": ["Leah", "Elliott", "Harvey"],
+  "(O)Book_Woodcutting": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [],
     "neutrals": [],
     "dislikes": [],
     "hates": []
   },
-  "(BC)15": {
+  "(O)424": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey"
+    ],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)709": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)SkillBook_2": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)16": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [
+      "Caroline",
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Robin",
+      "Abigail",
+      "Alex",
+      "George",
+      "Evelyn",
+      "Lewis",
+      "Clint",
+      "Pam",
+      "Marnie",
+      "Elliott",
+      "Gus",
+      "Dwarf",
+      "Wizard",
+      "Sebastian",
+      "Pierre",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Willy",
+      "Leo"
+    ],
+    "hates": [
+      "Haley",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)330": {
     "loves": [],
     "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Robin",
+      "Demetrius",
+      "Maru",
+      "Linus",
+      "Pierre",
+      "Caroline",
+      "Alex",
+      "Lewis",
+      "Penny",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Gus",
+      "Dwarf",
+      "Wizard",
+      "Harvey",
+      "Sandy",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Sebastian",
+      "Abigail",
+      "George",
+      "Evelyn",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Marnie"
+    ]
+  },
+  "(O)Thank": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin",
+      "Caroline",
+      "Evelyn",
+      "Haley",
+      "Jas",
+      "Leah",
+      "Marnie",
+      "Elliott",
+      "Gus",
+      "Dwarf",
+      "Wizard",
+      "Sandy",
+      "Krobus"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)you.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin",
+      "Demetrius",
+      "Caroline",
+      "Lewis",
+      "Haley",
+      "Kent",
+      "Leah",
+      "Gus",
+      "Dwarf",
+      "Wizard",
+      "Harvey",
+      "Krobus"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)This": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin",
+      "Marnie",
+      "Wizard",
+      "Sandy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)might": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)come": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)in": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin",
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)handy.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Robin"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)207": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [
+      "Emily",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)232": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Emily",
+      "Leah",
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)233": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [
+      "George",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Emily",
+      "Leah",
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)400": {
+    "loves": [
+      "Demetrius",
+      "Maru"
+    ],
+    "likes": [
+      "Robin",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)422": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [
+      "Demetrius",
+      "Harvey",
+      "Linus",
+      "Leah"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny",
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)107": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Alex"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)80": {
+    "loves": [],
+    "likes": [
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Demetrius",
+      "Evelyn",
+      "Clint",
+      "Penny",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": [
+      "Caroline",
+      "Alex",
+      "George",
+      "Lewis",
+      "Shane",
+      "Gus"
+    ]
+  },
+  "(O)That": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Demetrius"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)was": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Demetrius"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)very": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Demetrius",
+      "Lewis",
+      "Harvey"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)thoughtful": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Demetrius"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)of": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Demetrius",
+      "Lewis",
+      "Jodi",
+      "Kent",
+      "Harvey"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)72": {
+    "loves": [
+      "Maru",
+      "Evelyn",
+      "Penny",
+      "Jodi",
+      "Marnie",
+      "Gus",
+      "Willy",
+      "Krobus"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)197": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)190": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)215": {
+    "loves": [
+      "Maru",
+      "Shane"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)222": {
+    "loves": [
+      "Maru",
+      "Jodi"
+    ],
+    "likes": [
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)243": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)336": {
+    "loves": [
+      "Maru",
+      "Clint",
+      "Willy"
+    ],
+    "likes": [
+      "Krobus"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)337": {
+    "loves": [
+      "Maru",
+      "Clint",
+      "Willy",
+      "Krobus"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)787": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)910": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)122": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)62": {
+    "loves": [
+      "Clint",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Maru",
+      "Haley"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)64": {
+    "loves": [
+      "Clint",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Maru",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)66": {
+    "loves": [
+      "Abigail",
+      "Clint",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Maru",
+      "Willy",
+      "Krobus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)68": {
+    "loves": [
+      "Clint",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Maru"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)70": {
+    "loves": [
+      "Clint",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Maru",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)334": {
+    "loves": [],
+    "likes": [
+      "Maru",
+      "Clint"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)335": {
+    "loves": [],
+    "likes": [
+      "Maru",
+      "Clint"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)725": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Haley"
+    ],
+    "hates": []
+  },
+  "(O)726": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Haley"
+    ],
+    "hates": []
+  },
+  "(O)909": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)edible_mushroom": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)414": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)410": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)404": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)724": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Haley"
+    ],
+    "hates": []
+  },
+  "(O)340": {
+    "loves": [],
+    "likes": [
+      "Jas",
+      "Vincent",
+      "Willy",
+      "Krobus"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Maru",
+      "Sebastian"
+    ]
+  },
+  "(O)342": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": [
+      "Maru",
+      "Sam",
+      "Shane",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)430": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "(O)416": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Kent",
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "(O)Thanks.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Maru",
+      "Abigail",
+      "Lewis",
+      "Clint",
+      "Jodi",
+      "Harvey",
+      "Willy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)84": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [
+      "Emily",
+      "Elliott",
+      "Dwarf",
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)227": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [
+      "Pierre",
+      "Pam",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Evelyn",
+      "Emily",
+      "Kent"
+    ]
+  },
+  "(O)236": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [
+      "Pam",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)575": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)305": {
+    "loves": [
+      "Sebastian",
+      "Krobus"
+    ],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "(O)FrogEgg": {
+    "loves": [
+      "Sebastian",
+      "Vincent"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)267": {
+    "loves": [],
+    "likes": [
+      "Sebastian"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)614": {
+    "loves": [
+      "Caroline",
+      "Lewis"
+    ],
+    "likes": [
+      "Sebastian",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)276": {
+    "loves": [
+      "Abigail",
+      "Willy",
+      "Krobus"
+    ],
+    "likes": [
+      "Sebastian",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)Book_Void": {
+    "loves": [
+      "Abigail",
+      "Krobus"
+    ],
+    "likes": [
+      "Sebastian"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)SkillBook_4": {
+    "loves": [],
+    "likes": [
+      "Sebastian",
+      "Abigail"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)459": {
+    "loves": [
+      "Pam",
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": [
+      "Sebastian",
+      "Penny",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)195": {
+    "loves": [],
+    "likes": [
+      "George",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)201": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)240": {
+    "loves": [
+      "Marnie"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)873": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Kent",
+      "Willy",
+      "Krobus"
+    ],
+    "hates": [
+      "Sebastian",
+      "Penny",
+      "Jas",
+      "Vincent",
+      "Leo"
+    ]
+  },
+  "(O)...thanks.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sebastian"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)88": {
+    "loves": [
+      "Linus",
+      "Haley"
+    ],
+    "likes": [
+      "Lewis",
+      "Jas",
+      "Vincent",
+      "Sandy",
+      "Robin",
+      "Demetrius",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "(O)90": {
+    "loves": [
+      "Linus",
+      "Pam",
+      "Sam"
+    ],
+    "likes": [
+      "Lewis",
+      "Robin",
+      "Demetrius",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)234": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)242": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)280": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)Book_Trash": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)166": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Linus"
+    ],
+    "hates": []
+  },
+  "(O)A": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Linus",
+      "Pierre",
+      "George",
+      "Willy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)gift?": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Linus",
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)How": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Linus",
+      "Evelyn"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)nice.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Linus",
+      "Evelyn",
+      "Penny",
+      "Marnie"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)202": {
+    "loves": [
+      "Pierre"
+    ],
+    "likes": [
+      "Willy",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)Book_PriceCatalogue": {
+    "loves": [
+      "Pierre"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)18": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "George",
+      "Evelyn",
+      "Pam",
+      "Emily",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Gus",
+      "Linus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)22": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Penny",
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "George",
+      "Jodi"
+    ]
+  },
+  "(O)402": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Evelyn",
+      "Pam",
+      "Emily",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Marnie",
+      "Harvey",
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)418": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Evelyn",
+      "Pam",
+      "Emily",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Marnie",
+      "Harvey",
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)259": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)167": {
+    "loves": [],
+    "likes": [
+      "Sam"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Pierre",
+      "Gus",
+      "Leo"
+    ]
+  },
+  "(O)199": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [
+      "George",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Pierre"
+    ]
+  },
+  "(O)270": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": [
+      "Pierre"
+    ]
+  },
+  "(O)229": {
+    "loves": [],
+    "likes": [
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Pierre",
+      "Kent"
+    ]
+  },
+  "(O)248": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Jodi",
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn"
+    ]
+  },
+  "(O)present?": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Pierre",
+      "Abigail"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)Thanks!": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Pierre",
+      "Alex",
+      "Emily",
+      "Vincent",
+      "Sam",
+      "Shane"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)213": {
+    "loves": [
+      "Caroline",
+      "Gus"
+    ],
+    "likes": [
+      "Sam",
+      "Willy",
+      "Pierre",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Emily"
+    ]
+  },
+  "(O)593": {
+    "loves": [
+      "Caroline"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)907": {
+    "loves": [
+      "Caroline",
+      "Gus"
+    ],
+    "likes": [
+      "Pierre",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)815": {
+    "loves": [],
+    "likes": [
+      "Caroline",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)300": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Caroline",
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "(O)306": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Caroline"
+    ],
+    "hates": [
+      "Sam",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)307": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Caroline"
+    ],
+    "hates": [
+      "Sam",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)296": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": [
+      "Caroline",
+      "Evelyn",
+      "Elliott",
+      "Harvey"
+    ]
+  },
+  "(O)Oh,": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Caroline",
+      "Shane",
+      "Elliott",
+      "Gus"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)that's": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Caroline",
+      "Gus"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)sweet.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Caroline",
+      "Gus"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)128": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)220": {
+    "loves": [
+      "Abigail",
+      "Evelyn",
+      "Jodi"
+    ],
+    "likes": [
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)226": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Emily",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Evelyn"
+    ]
+  },
+  "(O)611": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)904": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)119": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)109": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)BasiliskPaw": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)245": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail"
+    ],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "(O)246": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "(O)You": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Abigail",
+      "Sam"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)brought": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Abigail"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)me": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Abigail",
+      "Shane"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)a": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Abigail",
+      "Elliott"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)212": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Emily"
+    ]
+  },
+  "(O)Book_Defense": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)403": {
+    "loves": [],
+    "likes": [
+      "Alex"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)ParrotEgg": {
+    "loves": [
+      "Emily",
+      "Leo"
+    ],
+    "likes": [
+      "Alex"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)book_item": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Alex"
+    ],
+    "hates": []
+  },
+  "(O)20": {
+    "loves": [
+      "George"
+    ],
+    "likes": [
+      "Penny",
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)205": {
+    "loves": [
+      "George"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)200": {
+    "loves": [
+      "Lewis",
+      "Jodi",
+      "Leah"
+    ],
+    "likes": [
+      "George",
+      "Emily",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)214": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "George",
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)219": {
+    "loves": [],
+    "likes": [
+      "George",
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Evelyn"
+    ]
+  },
+  "(O)223": {
+    "loves": [],
+    "likes": [
+      "George",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)231": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "George",
+      "Pam",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)Hmm...#$e#Do": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)you": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "George",
+      "Shane"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)want": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)something": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)return?": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "George"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)239": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)284": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)591": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)595": {
+    "loves": [
+      "Evelyn",
+      "Jas"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)Raisins": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)170": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)forage_item_beach": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)225": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Emily",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Evelyn"
+    ]
+  },
+  "(O)228": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Evelyn",
+      "Emily"
+    ]
+  },
+  "(O)396": {
+    "loves": [],
+    "likes": [
+      "Leo",
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": [
+      "Evelyn",
+      "Jodi",
+      "Harvey"
+    ]
+  },
+  "(O)you,": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Evelyn"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)dear.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Evelyn"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)208": {
+    "loves": [
+      "Lewis",
+      "Pam"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)235": {
+    "loves": [
+      "Lewis"
+    ],
+    "likes": [
+      "Pam",
+      "Emily",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)260": {
+    "loves": [
+      "Lewis",
+      "Shane"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)24": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [
+      "Lewis",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)192": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)258": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)264": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)272": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)274": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)278": {
+    "loves": [],
+    "likes": [
+      "Lewis",
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)That's": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Lewis",
+      "Jodi",
+      "Kent",
+      "Harvey"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)nice": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Lewis",
+      "Jodi"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)60": {
+    "loves": [
+      "Clint",
+      "Penny",
+      "Emily",
+      "Dwarf"
+    ],
+    "likes": [
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)605": {
+    "loves": [
+      "Clint"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)649": {
+    "loves": [
+      "Clint",
+      "Kent"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)749": {
+    "loves": [
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)SkillBook_3": {
+    "loves": [],
+    "likes": [
+      "Clint"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)376": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)651": {
+    "loves": [
+      "Penny",
+      "Leah"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)164": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)218": {
+    "loves": [
+      "Penny",
+      "Elliott"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)230": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [
+      "Emily",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)244": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)254": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)ancient_item": {
+    "loves": [],
+    "likes": [
+      "Penny"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)456": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Kent"
+    ]
+  },
+  "(O)457": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)444": {
+    "loves": [
+      "Elliott",
+      "Leo"
+    ],
+    "likes": [
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny"
+    ],
+    "hates": []
+  },
+  "(O)440": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny"
+    ],
+    "hates": []
+  },
+  "(O)420": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Penny",
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)446": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "(O)346": {
+    "loves": [
+      "Pam",
+      "Shane"
+    ],
+    "likes": [
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": [
+      "Penny",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)348": {
+    "loves": [
+      "Leah",
+      "Harvey"
+    ],
+    "likes": [
+      "Elliott",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": [
+      "Penny",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)303": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [
+      "Shane",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": [
+      "Penny",
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)304": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "(O)398": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas"
+    ],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "(O)Thanks,": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Penny",
+      "Pam"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)this": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Penny"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)looks": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Penny",
+      "Marnie"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)238": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)149": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pam",
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)151": {
+    "loves": [],
+    "likes": [
+      "Elliott"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pam",
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)kid.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Pam"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)241": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)428": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)82": {
+    "loves": [],
+    "likes": [
+      "Emily",
+      "Elliott",
+      "Dwarf",
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": []
+  },
+  "(O)86": {
+    "loves": [],
+    "likes": [
+      "Emily",
+      "Leah",
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre"
+    ],
+    "hates": []
+  },
+  "(O)196": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [
+      "Emily",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)78": {
+    "loves": [],
+    "likes": [
+      "Dwarf",
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Emily",
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)221": {
+    "loves": [
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Marnie"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)421": {
+    "loves": [
+      "Haley"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)610": {
+    "loves": [
+      "Haley"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)74": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Linus",
+      "Pierre",
+      "Leah"
+    ],
+    "hates": [
+      "Haley"
+    ]
+  },
+  "(O)I": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Haley",
+      "Wizard",
+      "Leo"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)love": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Haley"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)presents.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Haley"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)604": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)doll_item": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)toy_item": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)FairyBox": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)344": {
+    "loves": [],
+    "likes": [
+      "Jas",
+      "Vincent"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)903": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [
+      "Jas",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)253": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus"
+    ],
+    "hates": [
+      "Jas",
+      "Vincent",
+      "Leo"
+    ]
+  },
+  "(O)395": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)you!": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Jas",
+      "Jodi",
+      "Marnie",
+      "Elliott",
+      "Sandy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)612": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)721": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)211": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "(O)so": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Jodi"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)607": {
+    "loves": [
+      "Kent"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)Book_Bombs": {
+    "loves": [],
+    "likes": [
+      "Kent"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)kind": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent",
+      "Harvey"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)The": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)family": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)will": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent",
+      "Wizard"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)like": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)this.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Kent"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)206": {
+    "loves": [
+      "Sam",
+      "Shane"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Elliott",
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "(O)562": {
+    "loves": [
+      "Sam"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)731": {
+    "loves": [
+      "Sam"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)210": {
+    "loves": [],
+    "likes": [
+      "Sam",
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "(O)152": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "hates": []
+  },
+  "(O)got": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sam",
+      "Shane"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)that": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sam"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)for": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sam",
+      "Sandy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)me?": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sam",
+      "Sandy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)606": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)169": {
+    "loves": [],
+    "likes": [
+      "Leah"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)406": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)408": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Linus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)209": {
+    "loves": [],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)194": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leah",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)216": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Harvey",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "(O)something?": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Shane"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)608": {
+    "loves": [
+      "Marnie"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)SkillBook_0": {
+    "loves": [],
+    "likes": [
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)715": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)732": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)637": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)814": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)727": {
+    "loves": [],
+    "likes": [
+      "Elliott",
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)728": {
+    "loves": [],
+    "likes": [
+      "Elliott",
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)154": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Elliott",
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)155": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Elliott",
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)present!": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Elliott"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)635": {
+    "loves": [
+      "Gus"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)729": {
+    "loves": [
+      "Gus"
+    ],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)648": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": [
+      "Gus"
+    ]
+  },
+  "(O)554": {
+    "loves": [
+      "Dwarf"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)162": {
+    "loves": [
+      "Dwarf"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)96": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)97": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)98": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)99": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)121": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)An": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Dwarf"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)offering!": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Dwarf"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)769": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)768": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)Book_Mystery": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)category_trinket": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)766": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Wizard"
+    ],
+    "hates": []
+  },
+  "(O)prove": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Wizard"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)useful,": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Wizard"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)think.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Wizard"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)237": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)432": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)436": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Sandy",
+      "Robin",
+      "Linus",
+      "Pierre",
+      "Evelyn",
+      "Penny",
+      "Pam",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Leah",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Lewis",
+      "Haley",
+      "Elliott",
+      "Wizard"
+    ],
+    "hates": [
+      "Kent"
+    ]
+  },
+  "(O)438": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Sandy",
+      "Robin",
+      "Linus",
+      "Pierre",
+      "Evelyn",
+      "Penny",
+      "Pam",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Leah",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Lewis",
+      "Haley",
+      "Elliott",
+      "Wizard"
+    ],
+    "hates": [
+      "Kent"
+    ]
+  },
+  "(O)442": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)397": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "(O)394": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "(O)393": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "(O)392": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "(O)905": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [
+      "Leo",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus"
+    ],
+    "hates": []
+  },
+  "(O)is": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Sandy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)143": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)698": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)Book_Crabbing": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)Book_Roe": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)699": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)707": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)198": {
+    "loves": [],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)730": {
+    "loves": [],
+    "likes": [
+      "Willy",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)265": {
+    "loves": [],
+    "likes": [
+      "Willy",
+      "Krobus",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)SkillBook_1": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)gift!": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Willy"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)308": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)879": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)203": {
+    "loves": [],
+    "likes": [
+      "Krobus",
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)289": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)834": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)906": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus"
+    ],
+    "hates": []
+  },
+  "(O)852": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)257": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus"
+    ],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "(O)247": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "(O)271": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "(O)283": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus"
+    ],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "(O)accept": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Leo"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)your": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Leo"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)gift.": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [
+      "Leo"
+    ],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)184": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Linus",
+      "Pierre",
+      "Evelyn",
+      "Penny",
+      "Pam",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Leah",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Lewis",
+      "Haley",
+      "Elliott",
+      "Wizard"
+    ],
+    "hates": [
+      "Kent"
+    ]
+  },
+  "(O)186": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Linus",
+      "Pierre",
+      "Evelyn",
+      "Penny",
+      "Pam",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Leah",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Lewis",
+      "Haley",
+      "Elliott",
+      "Wizard"
+    ],
+    "hates": [
+      "Kent"
+    ]
+  },
+  "(O)252": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)268": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)282": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)454": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)613": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)634": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)638": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)91": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)832": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)889": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)Powdermelon": {
+    "loves": [],
+    "likes": [
+      "Robin",
+      "Demetrius",
+      "Linus",
+      "Pam",
+      "Jodi",
+      "Kent",
+      "Leah",
+      "Shane",
+      "Elliott",
+      "Harvey",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "(O)176": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)174": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)180": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)182": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)928": {
+    "loves": [],
+    "likes": [
+      "Demetrius",
+      "Linus",
+      "Pierre",
+      "Alex",
+      "Jodi",
+      "Kent",
+      "Sam",
+      "Leah",
+      "Shane",
+      "Marnie"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Pam",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Dwarf",
+      "Wizard"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "(O)129": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)130": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)131": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)132": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)136": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)137": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)138": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)139": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)140": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)141": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)142": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)144": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)145": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)146": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)147": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)148": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)150": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)156": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)158": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)159": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)160": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)161": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)163": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)165": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)372": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)682": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)700": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)701": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)702": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)704": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)705": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)706": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)708": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)716": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)717": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)718": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)719": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)720": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)722": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)723": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)734": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)775": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)795": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)796": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)798": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)799": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)800": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)269": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)836": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)837": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)838": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)898": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)899": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)900": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)901": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)902": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)Goby": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Maru",
+      "Penny",
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": [
+      "Pierre",
+      "Evelyn",
+      "Haley"
+    ]
+  },
+  "(O)92": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)281": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)399": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)412": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)829": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)851": {
+    "loves": [],
+    "likes": [
+      "Linus",
+      "Leah",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "Pierre",
+      "Caroline",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Jodi",
+      "Sam",
+      "Shane",
+      "Elliott",
+      "Dwarf",
+      "Wizard",
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)597": {
+    "loves": [],
+    "likes": [
+      "Lewis"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Sebastian",
+      "George",
+      "Clint"
+    ],
+    "hates": []
+  },
+  "(O)350": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)447": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)807": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)445": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)DriedFruit": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)DriedMushrooms": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)SmokedFish": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sebastian",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "(O)204": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)279": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)609": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)618": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)733": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)772": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)773": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)921": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)MossSoup": {
+    "loves": [],
+    "likes": [
+      "Pierre",
+      "Caroline",
+      "Gus",
+      "Harvey"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Willy",
+      "Krobus",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "(O)188": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)250": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)256": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)262": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)266": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)830": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)Carrot": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)SummerSquash": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)Broccoli": {
+    "loves": [],
+    "likes": [
+      "Pam",
+      "Sandy"
+    ],
+    "neutrals": [],
+    "dislikes": [
+      "Abigail",
+      "Haley",
+      "Jas",
+      "Vincent",
+      "Sam"
+    ],
+    "hates": []
+  },
+  "(O)MysticSyrup": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [
+      "Haley"
+    ],
+    "hates": []
+  },
+  "(O)338": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)378": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)380": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)382": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)384": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)386": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)848": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)881": {
+    "loves": [],
+    "likes": [],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "(O)538": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)539": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)540": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)541": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)542": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)543": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)544": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)545": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)546": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)547": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)548": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)549": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)550": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)551": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)552": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)553": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)555": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)556": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)557": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)558": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)559": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)560": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)561": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)563": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)564": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)565": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)566": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)567": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)568": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)569": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)570": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)571": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)572": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)573": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)574": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)576": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)577": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "neutrals": [],
+    "dislikes": [],
+    "hates": []
+  },
+  "(O)578": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
     "neutrals": [],
     "dislikes": [],
     "hates": []

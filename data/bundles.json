@@ -1,24 +1,1049 @@
 [
   {
-    "id": "ocean_fish", "room": "Fish Tank", "name": "Ocean Fish Bundle",
+    "id": "pantry_0",
+    "room": "Pantry",
+    "name": "Spring Crops",
     "slotsRequired": 4,
-    "reward": {"item": "(O)397", "count": 1},
+    "reward": {
+      "item": "(O)465",
+      "count": 20
+    },
     "items": [
-      {"item": "(O)128", "count": 1, "quality": 0},
-      {"item": "(O)131", "count": 1, "quality": 0},
-      {"item": "(O)130", "count": 1, "quality": 0},
-      {"item": "(O)701", "count": 1, "quality": 0}
+      {
+        "item": "(O)24",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)188",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)190",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)192",
+        "count": 1,
+        "quality": 0
+      }
     ]
   },
   {
-    "id": "spring_foraging", "room": "Crafts Room", "name": "Spring Foraging Bundle",
+    "id": "pantry_1",
+    "room": "Pantry",
+    "name": "Summer Crops",
     "slotsRequired": 4,
-    "reward": {"item": "(O)495", "count": 30},
+    "reward": {
+      "item": "(O)621",
+      "count": 1
+    },
     "items": [
-      {"item": "(O)16", "count": 1, "quality": 0},
-      {"item": "(O)18", "count": 1, "quality": 0},
-      {"item": "(O)20", "count": 1, "quality": 0},
-      {"item": "(O)22", "count": 1, "quality": 0}
+      {
+        "item": "(O)256",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)260",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)258",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)254",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "pantry_2",
+    "room": "Pantry",
+    "name": "Fall Crops",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(BC)10",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)270",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)272",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)276",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)280",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "pantry_3",
+    "room": "Pantry",
+    "name": "Quality Crops",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(BC)15",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)24",
+        "count": 5,
+        "quality": 2
+      },
+      {
+        "item": "(O)254",
+        "count": 5,
+        "quality": 2
+      },
+      {
+        "item": "(O)276",
+        "count": 5,
+        "quality": 2
+      },
+      {
+        "item": "(O)270",
+        "count": 5,
+        "quality": 2
+      }
+    ]
+  },
+  {
+    "id": "pantry_4",
+    "room": "Pantry",
+    "name": "Animal",
+    "slotsRequired": 6,
+    "reward": {
+      "item": "(BC)16",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)186",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)182",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)174",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)438",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)440",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)442",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "pantry_5",
+    "room": "Pantry",
+    "name": "Artisan",
+    "slotsRequired": 12,
+    "reward": {
+      "item": "(BC)12",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)432",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)428",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)426",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)424",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)340",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)344",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)613",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)634",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)635",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)636",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)637",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)638",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_13",
+    "room": "Crafts Room",
+    "name": "Spring Foraging",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)495",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "(O)16",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)18",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)20",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)22",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_14",
+    "room": "Crafts Room",
+    "name": "Summer Foraging",
+    "slotsRequired": 3,
+    "reward": {
+      "item": "(O)496",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "(O)396",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)398",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)402",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_15",
+    "room": "Crafts Room",
+    "name": "Fall Foraging",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)497",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "(O)404",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)406",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)408",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)410",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_16",
+    "room": "Crafts Room",
+    "name": "Winter Foraging",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)498",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "(O)412",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)414",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)416",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)418",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_17",
+    "room": "Crafts Room",
+    "name": "Construction",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(BC)114",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)388",
+        "count": 99,
+        "quality": 0
+      },
+      {
+        "item": "(O)388",
+        "count": 99,
+        "quality": 0
+      },
+      {
+        "item": "(O)390",
+        "count": 99,
+        "quality": 0
+      },
+      {
+        "item": "(O)709",
+        "count": 10,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "crafts_room_19",
+    "room": "Crafts Room",
+    "name": "Exotic Foraging",
+    "slotsRequired": 9,
+    "reward": {
+      "item": "(O)235",
+      "count": 5
+    },
+    "items": [
+      {
+        "item": "(O)88",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)90",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)78",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)420",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)422",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)724",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)725",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)726",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)257",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_6",
+    "room": "Fish Tank",
+    "name": "River Fish",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)DeluxeBait",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "(O)145",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)143",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)706",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)699",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_7",
+    "room": "Fish Tank",
+    "name": "Lake Fish",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)687",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)136",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)142",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)700",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)698",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_8",
+    "room": "Fish Tank",
+    "name": "Ocean Fish",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)690",
+      "count": 5
+    },
+    "items": [
+      {
+        "item": "(O)131",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)130",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)150",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)701",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_9",
+    "room": "Fish Tank",
+    "name": "Night Fishing",
+    "slotsRequired": 3,
+    "reward": {
+      "item": "(O)R",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)140",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)132",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)148",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_10",
+    "room": "Fish Tank",
+    "name": "Specialty Fish",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)242",
+      "count": 5
+    },
+    "items": [
+      {
+        "item": "(O)128",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)156",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)164",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)734",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "fish_tank_11",
+    "room": "Fish Tank",
+    "name": "Crab Pot",
+    "slotsRequired": 10,
+    "reward": {
+      "item": "(O)710",
+      "count": 3
+    },
+    "items": [
+      {
+        "item": "(O)715",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)716",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)717",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)718",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)719",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)720",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)721",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)722",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)723",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)372",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "boiler_room_20",
+    "room": "Boiler Room",
+    "name": "Blacksmith's",
+    "slotsRequired": 3,
+    "reward": {
+      "item": "(BC)13",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)334",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)335",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)336",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "boiler_room_21",
+    "room": "Boiler Room",
+    "name": "Geologist's",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)749",
+      "count": 5
+    },
+    "items": [
+      {
+        "item": "(O)80",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)86",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)84",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)82",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "boiler_room_22",
+    "room": "Boiler Room",
+    "name": "Adventurer's",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)R",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)766",
+        "count": 99,
+        "quality": 0
+      },
+      {
+        "item": "(O)767",
+        "count": 10,
+        "quality": 0
+      },
+      {
+        "item": "(O)768",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)769",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "vault_23",
+    "room": "Vault",
+    "name": "2,500g",
+    "slotsRequired": 1,
+    "reward": {
+      "item": "(O)220",
+      "count": 3
+    },
+    "items": [
+      {
+        "item": "-1",
+        "count": 2500,
+        "quality": 2500
+      }
+    ]
+  },
+  {
+    "id": "vault_24",
+    "room": "Vault",
+    "name": "5,000g",
+    "slotsRequired": 1,
+    "reward": {
+      "item": "(O)369",
+      "count": 30
+    },
+    "items": [
+      {
+        "item": "-1",
+        "count": 5000,
+        "quality": 5000
+      }
+    ]
+  },
+  {
+    "id": "vault_25",
+    "room": "Vault",
+    "name": "10,000g",
+    "slotsRequired": 1,
+    "reward": {
+      "item": "(BC)9",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "-1",
+        "count": 10000,
+        "quality": 10000
+      }
+    ]
+  },
+  {
+    "id": "vault_26",
+    "room": "Vault",
+    "name": "25,000g",
+    "slotsRequired": 1,
+    "reward": {
+      "item": "(BC)21",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "-1",
+        "count": 25000,
+        "quality": 25000
+      }
+    ]
+  },
+  {
+    "id": "bulletin_board_31",
+    "room": "Bulletin Board",
+    "name": "Chef's",
+    "slotsRequired": 6,
+    "reward": {
+      "item": "(O)221",
+      "count": 3
+    },
+    "items": [
+      {
+        "item": "(O)724",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)259",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)430",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)376",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)228",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)194",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "bulletin_board_32",
+    "room": "Bulletin Board",
+    "name": "Field Research",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(BC)20",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)422",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)392",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)702",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)536",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "bulletin_board_33",
+    "room": "Bulletin Board",
+    "name": "Enchanter's",
+    "slotsRequired": 4,
+    "reward": {
+      "item": "(O)336",
+      "count": 5
+    },
+    "items": [
+      {
+        "item": "(O)725",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)348",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)446",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)637",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "bulletin_board_34",
+    "room": "Bulletin Board",
+    "name": "Dye",
+    "slotsRequired": 6,
+    "reward": {
+      "item": "(BC)25",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)420",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)397",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)421",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)444",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)62",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)266",
+        "count": 1,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "bulletin_board_35",
+    "room": "Bulletin Board",
+    "name": "Fodder",
+    "slotsRequired": 3,
+    "reward": {
+      "item": "(BC)104",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)262",
+        "count": 10,
+        "quality": 0
+      },
+      {
+        "item": "(O)178",
+        "count": 10,
+        "quality": 0
+      },
+      {
+        "item": "(O)613",
+        "count": 3,
+        "quality": 0
+      }
+    ]
+  },
+  {
+    "id": "abandoned_joja_mart_36",
+    "room": "Abandoned Joja Mart",
+    "name": "The Missing",
+    "slotsRequired": 6,
+    "reward": {
+      "item": "(O)0",
+      "count": 1
+    },
+    "items": [
+      {
+        "item": "(O)348",
+        "count": 1,
+        "quality": 1
+      },
+      {
+        "item": "(O)807",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)74",
+        "count": 1,
+        "quality": 0
+      },
+      {
+        "item": "(O)454",
+        "count": 5,
+        "quality": 2
+      },
+      {
+        "item": "(O)795",
+        "count": 1,
+        "quality": 2
+      },
+      {
+        "item": "(O)445",
+        "count": 1,
+        "quality": 0
+      }
     ]
   }
 ]

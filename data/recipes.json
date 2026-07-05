@@ -1,19 +1,4289 @@
 [
   {
-    "id": "maki_roll", "name": "Maki Roll",
-    "yields": "(O)228", "yieldCount": 1,
+    "id": "wood_fence",
+    "name": "Wood Fence",
+    "yields": "(O)322",
+    "yieldCount": 1,
     "ingredients": [
-      {"item": "(O)128", "count": 1},
-      {"item": "(O)718", "count": 1}
+      {
+        "item": "(O)388",
+        "count": 2
+      }
     ],
-    "source": "Cooking - The Queen of Sauce"
+    "source": "Crafting — default"
   },
   {
-    "id": "sashimi", "name": "Sashimi",
-    "yields": "(O)227", "yieldCount": 3,
+    "id": "stone_fence",
+    "name": "Stone Fence",
+    "yields": "(O)323",
+    "yieldCount": 1,
     "ingredients": [
-      {"item": "(O)128", "count": 1}
+      {
+        "item": "(O)390",
+        "count": 2
+      }
     ],
-    "source": "Cooking - Willy (mail)"
+    "source": "Crafting — Farming level 2"
+  },
+  {
+    "id": "iron_fence",
+    "name": "Iron Fence",
+    "yields": "(O)324",
+    "yieldCount": 10,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 4"
+  },
+  {
+    "id": "hardwood_fence",
+    "name": "Hardwood Fence",
+    "yields": "(O)298",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 6"
+  },
+  {
+    "id": "grass_starter",
+    "name": "Grass Starter",
+    "yields": "(O)297",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)771",
+        "count": 10
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "blue_grass_starter",
+    "name": "Blue Grass Starter",
+    "yields": "(O)BlueGrassStarter",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)771",
+        "count": 25
+      },
+      {
+        "item": "(O)Moss",
+        "count": 10
+      },
+      {
+        "item": "(O)MysticSyrup",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "gate",
+    "name": "Gate",
+    "yields": "(O)325",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "chest",
+    "name": "Chest",
+    "yields": "(O)130",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "big_chest",
+    "name": "Big Chest",
+    "yields": "(O)BigChest",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 120
+      },
+      {
+        "item": "(O)334",
+        "count": 2
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "stone_chest",
+    "name": "Stone Chest",
+    "yields": "(O)232",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 50
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "big_stone_chest",
+    "name": "Big Stone Chest",
+    "yields": "(O)BigStoneChest",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 250
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "torch",
+    "name": "Torch",
+    "yields": "(O)93",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      },
+      {
+        "item": "(O)92",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "scarecrow",
+    "name": "Scarecrow",
+    "yields": "(O)8",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 20
+      }
+    ],
+    "source": "Crafting — Farming level 1"
+  },
+  {
+    "id": "deluxe_scarecrow",
+    "name": "Deluxe Scarecrow",
+    "yields": "(O)167",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      },
+      {
+        "item": "(O)386",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 40
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "bee_house",
+    "name": "Bee House",
+    "yields": "(O)10",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 40
+      },
+      {
+        "item": "(O)382",
+        "count": 8
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)724",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 3"
+  },
+  {
+    "id": "keg",
+    "name": "Keg",
+    "yields": "(O)12",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 30
+      },
+      {
+        "item": "(O)334",
+        "count": 1
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)725",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 8"
+  },
+  {
+    "id": "cask",
+    "name": "Cask",
+    "yields": "(O)163",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 20
+      },
+      {
+        "item": "(O)709",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "dehydrator",
+    "name": "Dehydrator",
+    "yields": "(O)Dehydrator",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 30
+      },
+      {
+        "item": "(O)330",
+        "count": 2
+      },
+      {
+        "item": "(O)82",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace",
+    "yields": "(O)13",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)378",
+        "count": 20
+      },
+      {
+        "item": "(O)390",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — Level 2"
+  },
+  {
+    "id": "heavy_furnace",
+    "name": "Heavy Furnace",
+    "yields": "(O)HeavyFurnace",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(BC)13",
+        "count": 2
+      },
+      {
+        "item": "(O)335",
+        "count": 3
+      },
+      {
+        "item": "(O)390",
+        "count": 50
+      }
+    ],
+    "source": "Crafting — Level 2"
+  },
+  {
+    "id": "anvil",
+    "name": "Anvil",
+    "yields": "(O)Anvil",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 50
+      }
+    ],
+    "source": "Crafting — Level 2"
+  },
+  {
+    "id": "mini-forge",
+    "name": "Mini-Forge",
+    "yields": "(O)MiniForge",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)852",
+        "count": 5
+      },
+      {
+        "item": "(O)335",
+        "count": 10
+      },
+      {
+        "item": "(O)336",
+        "count": 10
+      },
+      {
+        "item": "(O)337",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Level 2"
+  },
+  {
+    "id": "garden_pot",
+    "name": "Garden Pot",
+    "yields": "(O)62",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)330",
+        "count": 1
+      },
+      {
+        "item": "(O)390",
+        "count": 10
+      },
+      {
+        "item": "(O)338",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wood_sign",
+    "name": "Wood Sign",
+    "yields": "(O)37",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "stone_sign",
+    "name": "Stone Sign",
+    "yields": "(O)38",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "dark_sign",
+    "name": "Dark Sign",
+    "yields": "(O)39",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)767",
+        "count": 5
+      },
+      {
+        "item": "(O)881",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — f Krobus 3"
+  },
+  {
+    "id": "text_sign",
+    "name": "Text Sign",
+    "yields": "(O)TextSign",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "cheese_press",
+    "name": "Cheese Press",
+    "yields": "(O)16",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 45
+      },
+      {
+        "item": "(O)390",
+        "count": 45
+      },
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)334",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 6"
+  },
+  {
+    "id": "mayonnaise_machine",
+    "name": "Mayonnaise Machine",
+    "yields": "(O)24",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 15
+      },
+      {
+        "item": "(O)390",
+        "count": 15
+      },
+      {
+        "item": "(O)86",
+        "count": 1
+      },
+      {
+        "item": "(O)334",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 2"
+  },
+  {
+    "id": "seed_maker",
+    "name": "Seed Maker",
+    "yields": "(O)25",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 25
+      },
+      {
+        "item": "(O)382",
+        "count": 10
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 9"
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "yields": "(O)17",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 60
+      },
+      {
+        "item": "(O)771",
+        "count": 30
+      },
+      {
+        "item": "(O)726",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 7"
+  },
+  {
+    "id": "oil_maker",
+    "name": "Oil Maker",
+    "yields": "(O)19",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)766",
+        "count": 50
+      },
+      {
+        "item": "(O)709",
+        "count": 20
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 8"
+  },
+  {
+    "id": "recycling_machine",
+    "name": "Recycling Machine",
+    "yields": "(O)20",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 25
+      },
+      {
+        "item": "(O)390",
+        "count": 25
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 4"
+  },
+  {
+    "id": "worm_bin",
+    "name": "Worm Bin",
+    "yields": "(O)154",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 15
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 50
+      }
+    ],
+    "source": "Crafting — Fishing level 4"
+  },
+  {
+    "id": "deluxe_worm_bin",
+    "name": "Deluxe Worm Bin",
+    "yields": "(O)DeluxeWormBin",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(BC)154",
+        "count": 1
+      },
+      {
+        "item": "(O)Moss",
+        "count": 30
+      }
+    ],
+    "source": "Crafting — Fishing level 8"
+  },
+  {
+    "id": "bait_maker",
+    "name": "Bait Maker",
+    "yields": "(O)BaitMaker",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 3
+      },
+      {
+        "item": "(O)393",
+        "count": 3
+      },
+      {
+        "item": "(O)397",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 6"
+  },
+  {
+    "id": "fish_smoker",
+    "name": "Fish Smoker",
+    "yields": "(O)FishSmoker",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)SeaJelly",
+        "count": 1
+      },
+      {
+        "item": "(O)RiverJelly",
+        "count": 1
+      },
+      {
+        "item": "(O)CaveJelly",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "preserves_jar",
+    "name": "Preserves Jar",
+    "yields": "(O)15",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      },
+      {
+        "item": "(O)390",
+        "count": 40
+      },
+      {
+        "item": "(O)382",
+        "count": 8
+      }
+    ],
+    "source": "Crafting — Farming level 4"
+  },
+  {
+    "id": "charcoal_kiln",
+    "name": "Charcoal Kiln",
+    "yields": "(O)114",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 20
+      },
+      {
+        "item": "(O)334",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Foraging level 2"
+  },
+  {
+    "id": "tapper",
+    "name": "Tapper",
+    "yields": "(O)105",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 40
+      },
+      {
+        "item": "(O)334",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Foraging level 4"
+  },
+  {
+    "id": "mushroom_log",
+    "name": "Mushroom Log",
+    "yields": "(O)MushroomLog",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)Moss",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Foraging level 4"
+  },
+  {
+    "id": "lightning_rod",
+    "name": "Lightning Rod",
+    "yields": "(O)9",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)338",
+        "count": 1
+      },
+      {
+        "item": "(O)767",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Foraging level 6"
+  },
+  {
+    "id": "slime_incubator",
+    "name": "Slime Incubator",
+    "yields": "(O)156",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)337",
+        "count": 2
+      },
+      {
+        "item": "(O)766",
+        "count": 100
+      }
+    ],
+    "source": "Crafting — Combat level 8"
+  },
+  {
+    "id": "slime_egg-press",
+    "name": "Slime Egg-Press",
+    "yields": "(O)158",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)382",
+        "count": 25
+      },
+      {
+        "item": "(O)82",
+        "count": 1
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Combat level 6"
+  },
+  {
+    "id": "crystalarium",
+    "name": "Crystalarium",
+    "yields": "(O)21",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 99
+      },
+      {
+        "item": "(O)336",
+        "count": 5
+      },
+      {
+        "item": "(O)337",
+        "count": 2
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Mining level 9"
+  },
+  {
+    "id": "mini-jukebox",
+    "name": "Mini-Jukebox",
+    "yields": "(O)209",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 2
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "sprinkler",
+    "name": "Sprinkler",
+    "yields": "(O)599",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 1
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 2"
+  },
+  {
+    "id": "quality_sprinkler",
+    "name": "Quality Sprinkler",
+    "yields": "(O)621",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      },
+      {
+        "item": "(O)338",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 6"
+  },
+  {
+    "id": "iridium_sprinkler",
+    "name": "Iridium Sprinkler",
+    "yields": "(O)645",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)336",
+        "count": 1
+      },
+      {
+        "item": "(O)337",
+        "count": 1
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 9"
+  },
+  {
+    "id": "staircase",
+    "name": "Staircase",
+    "yields": "(O)71",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 99
+      }
+    ],
+    "source": "Crafting — Mining level 2"
+  },
+  {
+    "id": "flute_block",
+    "name": "Flute Block",
+    "yields": "(O)464",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 10
+      },
+      {
+        "item": "(O)378",
+        "count": 2
+      },
+      {
+        "item": "(O)771",
+        "count": 20
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "drum_block",
+    "name": "Drum Block",
+    "yields": "(O)463",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 10
+      },
+      {
+        "item": "(O)378",
+        "count": 2
+      },
+      {
+        "item": "(O)771",
+        "count": 20
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "basic_fertilizer",
+    "name": "Basic Fertilizer",
+    "yields": "(O)368",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)92",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Farming level 1"
+  },
+  {
+    "id": "tree_fertilizer",
+    "name": "Tree Fertilizer",
+    "yields": "(O)805",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)771",
+        "count": 5
+      },
+      {
+        "item": "(O)390",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Foraging level 7"
+  },
+  {
+    "id": "mystic_tree_seed",
+    "name": "Mystic Tree Seed",
+    "yields": "(O)MysticTreeSeed",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)309",
+        "count": 5
+      },
+      {
+        "item": "(O)310",
+        "count": 5
+      },
+      {
+        "item": "(O)311",
+        "count": 5
+      },
+      {
+        "item": "(O)292",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "quality_fertilizer",
+    "name": "Quality Fertilizer",
+    "yields": "(O)369",
+    "yieldCount": 2,
+    "ingredients": [
+      {
+        "item": "(O)92",
+        "count": 4
+      },
+      {
+        "item": "(O)-4",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 9"
+  },
+  {
+    "id": "basic_retaining_soil",
+    "name": "Basic Retaining Soil",
+    "yields": "(O)370",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Farming level 4"
+  },
+  {
+    "id": "quality_retaining_soil",
+    "name": "Quality Retaining Soil",
+    "yields": "(O)371",
+    "yieldCount": 2,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 3
+      },
+      {
+        "item": "(O)330",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Farming level 7"
+  },
+  {
+    "id": "speed-gro",
+    "name": "Speed-Gro",
+    "yields": "(O)465",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)726",
+        "count": 1
+      },
+      {
+        "item": "(O)Moss",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Farming level 3"
+  },
+  {
+    "id": "deluxe_speed-gro",
+    "name": "Deluxe Speed-Gro",
+    "yields": "(O)466",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)725",
+        "count": 1
+      },
+      {
+        "item": "(O)881",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Farming level 8"
+  },
+  {
+    "id": "hyper_speed-gro",
+    "name": "Hyper Speed-Gro",
+    "yields": "(O)918",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)909",
+        "count": 1
+      },
+      {
+        "item": "(O)881",
+        "count": 3
+      },
+      {
+        "item": "(O)768",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "deluxe_fertilizer",
+    "name": "Deluxe Fertilizer",
+    "yields": "(O)919",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)337",
+        "count": 1
+      },
+      {
+        "item": "(O)92",
+        "count": 40
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "deluxe_retaining_soil",
+    "name": "Deluxe Retaining Soil",
+    "yields": "(O)920",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 5
+      },
+      {
+        "item": "(O)771",
+        "count": 3
+      },
+      {
+        "item": "(O)330",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "cherry_bomb",
+    "name": "Cherry Bomb",
+    "yields": "(O)286",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)378",
+        "count": 4
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Mining level 1"
+  },
+  {
+    "id": "bomb",
+    "name": "Bomb",
+    "yields": "(O)287",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)380",
+        "count": 4
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Mining level 6"
+  },
+  {
+    "id": "mega_bomb",
+    "name": "Mega Bomb",
+    "yields": "(O)288",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)384",
+        "count": 4
+      },
+      {
+        "item": "(O)768",
+        "count": 1
+      },
+      {
+        "item": "(O)769",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Mining level 8"
+  },
+  {
+    "id": "explosive_ammo",
+    "name": "Explosive Ammo",
+    "yields": "(O)441",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)382",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Combat level 8"
+  },
+  {
+    "id": "transmute_(fe)",
+    "name": "Transmute (Fe)",
+    "yields": "(O)335",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 3
+      }
+    ],
+    "source": "Crafting — Mining level 4"
+  },
+  {
+    "id": "transmute_(au)",
+    "name": "Transmute (Au)",
+    "yields": "(O)336",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Mining level 7"
+  },
+  {
+    "id": "ancient_seeds",
+    "name": "Ancient Seeds",
+    "yields": "(O)499",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)114",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wild_seeds_(sp)",
+    "name": "Wild Seeds (Sp)",
+    "yields": "(O)495",
+    "yieldCount": 10,
+    "ingredients": [
+      {
+        "item": "(O)16",
+        "count": 1
+      },
+      {
+        "item": "(O)18",
+        "count": 1
+      },
+      {
+        "item": "(O)20",
+        "count": 1
+      },
+      {
+        "item": "(O)22",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 1"
+  },
+  {
+    "id": "wild_seeds_(su)",
+    "name": "Wild Seeds (Su)",
+    "yields": "(O)496",
+    "yieldCount": 10,
+    "ingredients": [
+      {
+        "item": "(O)396",
+        "count": 1
+      },
+      {
+        "item": "(O)398",
+        "count": 1
+      },
+      {
+        "item": "(O)402",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 4"
+  },
+  {
+    "id": "wild_seeds_(fa)",
+    "name": "Wild Seeds (Fa)",
+    "yields": "(O)497",
+    "yieldCount": 10,
+    "ingredients": [
+      {
+        "item": "(O)404",
+        "count": 1
+      },
+      {
+        "item": "(O)406",
+        "count": 1
+      },
+      {
+        "item": "(O)408",
+        "count": 1
+      },
+      {
+        "item": "(O)410",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 6"
+  },
+  {
+    "id": "wild_seeds_(wi)",
+    "name": "Wild Seeds (Wi)",
+    "yields": "(O)498",
+    "yieldCount": 10,
+    "ingredients": [
+      {
+        "item": "(O)412",
+        "count": 1
+      },
+      {
+        "item": "(O)414",
+        "count": 1
+      },
+      {
+        "item": "(O)416",
+        "count": 1
+      },
+      {
+        "item": "(O)418",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 7"
+  },
+  {
+    "id": "fiber_seeds",
+    "name": "Fiber Seeds",
+    "yields": "(O)885",
+    "yieldCount": 4,
+    "ingredients": [
+      {
+        "item": "(O)770",
+        "count": 1
+      },
+      {
+        "item": "(O)92",
+        "count": 5
+      },
+      {
+        "item": "(O)330",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "tea_sapling",
+    "name": "Tea Sapling",
+    "yields": "(O)251",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-777",
+        "count": 2
+      },
+      {
+        "item": "(O)771",
+        "count": 5
+      },
+      {
+        "item": "(O)388",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "warp_totem:_farm",
+    "name": "Warp Totem: Farm",
+    "yields": "(O)688",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 1
+      },
+      {
+        "item": "(O)340",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 20
+      }
+    ],
+    "source": "Crafting — Foraging level 8"
+  },
+  {
+    "id": "warp_totem:_mountains",
+    "name": "Warp Totem: Mountains",
+    "yields": "(O)689",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 1
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)390",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — Foraging level 7"
+  },
+  {
+    "id": "warp_totem:_beach",
+    "name": "Warp Totem: Beach",
+    "yields": "(O)690",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 1
+      },
+      {
+        "item": "(O)393",
+        "count": 2
+      },
+      {
+        "item": "(O)771",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Foraging level 6"
+  },
+  {
+    "id": "warp_totem:_desert",
+    "name": "Warp Totem: Desert",
+    "yields": "(O)261",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 2
+      },
+      {
+        "item": "(O)88",
+        "count": 1
+      },
+      {
+        "item": "(O)386",
+        "count": 4
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "warp_totem:_island",
+    "name": "Warp Totem: Island",
+    "yields": "(O)886",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 5
+      },
+      {
+        "item": "(O)852",
+        "count": 1
+      },
+      {
+        "item": "(O)829",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "rain_totem",
+    "name": "Rain Totem",
+    "yields": "(O)681",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 1
+      },
+      {
+        "item": "(O)432",
+        "count": 1
+      },
+      {
+        "item": "(O)726",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Foraging level 9"
+  },
+  {
+    "id": "treasure_totem",
+    "name": "Treasure Totem",
+    "yields": "(O)TreasureTotem",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 5
+      },
+      {
+        "item": "(O)MysticSyrup",
+        "count": 1
+      },
+      {
+        "item": "(O)Moss",
+        "count": 10
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "cookout_kit",
+    "name": "Cookout Kit",
+    "yields": "(O)926",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 15
+      },
+      {
+        "item": "(O)771",
+        "count": 10
+      },
+      {
+        "item": "(O)382",
+        "count": 3
+      }
+    ],
+    "source": "Crafting — Foraging level 3"
+  },
+  {
+    "id": "tent_kit",
+    "name": "Tent Kit",
+    "yields": "(O)TentKit",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)771",
+        "count": 25
+      },
+      {
+        "item": "(O)428",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 8"
+  },
+  {
+    "id": "field_snack",
+    "name": "Field Snack",
+    "yields": "(O)403",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)309",
+        "count": 1
+      },
+      {
+        "item": "(O)310",
+        "count": 1
+      },
+      {
+        "item": "(O)311",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Foraging level 1"
+  },
+  {
+    "id": "statue_of_blessings",
+    "name": "Statue Of Blessings",
+    "yields": "(O)StatueOfBlessings",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 999
+      },
+      {
+        "item": "(O)771",
+        "count": 999
+      },
+      {
+        "item": "(O)92",
+        "count": 999
+      },
+      {
+        "item": "(O)Moss",
+        "count": 333
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "statue_of_the_dwarf_king",
+    "name": "Statue Of The Dwarf King",
+    "yields": "(O)StatueOfTheDwarfKing",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)337",
+        "count": 20
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "jack-o-lantern",
+    "name": "Jack-O-Lantern",
+    "yields": "(O)746",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)276",
+        "count": 1
+      },
+      {
+        "item": "(O)93",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wood_floor",
+    "name": "Wood Floor",
+    "yields": "(O)328",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "straw_floor",
+    "name": "Straw Floor",
+    "yields": "(O)401",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "weathered_floor",
+    "name": "Weathered Floor",
+    "yields": "(O)331",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "rustic_plank_floor",
+    "name": "Rustic Plank Floor",
+    "yields": "(O)840",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "crystal_floor",
+    "name": "Crystal Floor",
+    "yields": "(O)333",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)338",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "stone_floor",
+    "name": "Stone Floor",
+    "yields": "(O)329",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "stone_walkway_floor",
+    "name": "Stone Walkway Floor",
+    "yields": "(O)841",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "brick_floor",
+    "name": "Brick Floor",
+    "yields": "(O)293",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)330",
+        "count": 2
+      },
+      {
+        "item": "(O)390",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "wood_path",
+    "name": "Wood Path",
+    "yields": "(O)405",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "gravel_path",
+    "name": "Gravel Path",
+    "yields": "(O)407",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "cobblestone_path",
+    "name": "Cobblestone Path",
+    "yields": "(O)411",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "stepping_stone_path",
+    "name": "Stepping Stone Path",
+    "yields": "(O)415",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "crystal_path",
+    "name": "Crystal Path",
+    "yields": "(O)409",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)338",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Level 0"
+  },
+  {
+    "id": "bait",
+    "name": "Bait",
+    "yields": "(O)685",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)684",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 2"
+  },
+  {
+    "id": "deluxe_bait",
+    "name": "Deluxe Bait",
+    "yields": "(O)DeluxeBait",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)685",
+        "count": 5
+      },
+      {
+        "item": "(O)Moss",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Fishing level 4"
+  },
+  {
+    "id": "wild_bait",
+    "name": "Wild Bait",
+    "yields": "(O)774",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)771",
+        "count": 10
+      },
+      {
+        "item": "(O)684",
+        "count": 5
+      },
+      {
+        "item": "(O)766",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "challenge_bait",
+    "name": "Challenge Bait",
+    "yields": "(O)ChallengeBait",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)881",
+        "count": 5
+      },
+      {
+        "item": "(O)Moss",
+        "count": 2
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "yields": "(O)703",
+    "yieldCount": 3,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 9"
+  },
+  {
+    "id": "spinner",
+    "name": "Spinner",
+    "yields": "(O)686",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Fishing level 6"
+  },
+  {
+    "id": "dressed_spinner",
+    "name": "Dressed Spinner",
+    "yields": "(O)687",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 2
+      },
+      {
+        "item": "(O)428",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 8"
+  },
+  {
+    "id": "trap_bobber",
+    "name": "Trap Bobber",
+    "yields": "(O)694",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 1
+      },
+      {
+        "item": "(O)92",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Fishing level 6"
+  },
+  {
+    "id": "sonar_bobber",
+    "name": "Sonar Bobber",
+    "yields": "(O)SonarBobber",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)338",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Fishing level 6"
+  },
+  {
+    "id": "cork_bobber",
+    "name": "Cork Bobber",
+    "yields": "(O)695",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 10
+      },
+      {
+        "item": "(O)709",
+        "count": 5
+      },
+      {
+        "item": "(O)766",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Fishing level 7"
+  },
+  {
+    "id": "treasure_hunter",
+    "name": "Treasure Hunter",
+    "yields": "(O)693",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)336",
+        "count": 2
+      }
+    ],
+    "source": "Crafting — Fishing level 7"
+  },
+  {
+    "id": "barbed_hook",
+    "name": "Barbed Hook",
+    "yields": "(O)691",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 1
+      },
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Fishing level 8"
+  },
+  {
+    "id": "oil_of_garlic",
+    "name": "Oil Of Garlic",
+    "yields": "(O)772",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)248",
+        "count": 10
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Combat level 6"
+  },
+  {
+    "id": "life_elixir",
+    "name": "Life Elixir",
+    "yields": "(O)773",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)420",
+        "count": 1
+      },
+      {
+        "item": "(O)422",
+        "count": 1
+      },
+      {
+        "item": "(O)257",
+        "count": 1
+      },
+      {
+        "item": "(O)281",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Combat level 2"
+  },
+  {
+    "id": "crab_pot",
+    "name": "Crab Pot",
+    "yields": "(O)710",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 40
+      },
+      {
+        "item": "(O)335",
+        "count": 3
+      }
+    ],
+    "source": "Crafting — Fishing level 3"
+  },
+  {
+    "id": "iridium_band",
+    "name": "Iridium Band",
+    "yields": "(O)527",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)337",
+        "count": 5
+      },
+      {
+        "item": "(O)768",
+        "count": 50
+      },
+      {
+        "item": "(O)769",
+        "count": 50
+      }
+    ],
+    "source": "Crafting — Combat level 9"
+  },
+  {
+    "id": "wedding_ring",
+    "name": "Wedding Ring",
+    "yields": "(O)801",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)337",
+        "count": 5
+      },
+      {
+        "item": "(O)74",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "ring_of_yoba",
+    "name": "Ring of Yoba",
+    "yields": "(O)524",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)336",
+        "count": 5
+      },
+      {
+        "item": "(O)335",
+        "count": 5
+      },
+      {
+        "item": "(O)72",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Combat level 7"
+  },
+  {
+    "id": "sturdy_ring",
+    "name": "Sturdy Ring",
+    "yields": "(O)525",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 2
+      },
+      {
+        "item": "(O)684",
+        "count": 25
+      },
+      {
+        "item": "(O)766",
+        "count": 25
+      }
+    ],
+    "source": "Crafting — Combat level 1"
+  },
+  {
+    "id": "warrior_ring",
+    "name": "Warrior Ring",
+    "yields": "(O)521",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 10
+      },
+      {
+        "item": "(O)382",
+        "count": 25
+      },
+      {
+        "item": "(O)84",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Combat level 4"
+  },
+  {
+    "id": "tub_o'_flowers",
+    "name": "Tub o' Flowers",
+    "yields": "(O)108",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 15
+      },
+      {
+        "item": "(O)427",
+        "count": 1
+      },
+      {
+        "item": "(O)429",
+        "count": 1
+      },
+      {
+        "item": "(O)453",
+        "count": 1
+      },
+      {
+        "item": "(O)455",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wooden_brazier",
+    "name": "Wooden Brazier",
+    "yields": "(O)143",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 10
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wicked_statue",
+    "name": "Wicked Statue",
+    "yields": "(O)83",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)382",
+        "count": 5
+      },
+      {
+        "item": "(O)390",
+        "count": 25
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "stone_brazier",
+    "name": "Stone Brazier",
+    "yields": "(O)144",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 10
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "gold_brazier",
+    "name": "Gold Brazier",
+    "yields": "(O)145",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)336",
+        "count": 1
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      },
+      {
+        "item": "(O)771",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "yields": "(O)146",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)390",
+        "count": 10
+      },
+      {
+        "item": "(O)388",
+        "count": 10
+      },
+      {
+        "item": "(O)771",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — default"
+  },
+  {
+    "id": "stump_brazier",
+    "name": "Stump Brazier",
+    "yields": "(O)147",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 5
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "carved_brazier",
+    "name": "Carved Brazier",
+    "yields": "(O)148",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "skull_brazier",
+    "name": "Skull Brazier",
+    "yields": "(O)149",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)881",
+        "count": 10
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "barrel_brazier",
+    "name": "Barrel Brazier",
+    "yields": "(O)150",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      },
+      {
+        "item": "(O)768",
+        "count": 1
+      },
+      {
+        "item": "(O)382",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "marble_brazier",
+    "name": "Marble Brazier",
+    "yields": "(O)151",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)567",
+        "count": 1
+      },
+      {
+        "item": "(O)62",
+        "count": 1
+      },
+      {
+        "item": "(O)390",
+        "count": 100
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "wood_lamp-post",
+    "name": "Wood Lamp-post",
+    "yields": "(O)152",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)388",
+        "count": 50
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "iron_lamp-post",
+    "name": "Iron Lamp-post",
+    "yields": "(O)153",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)335",
+        "count": 1
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "fairy_dust",
+    "name": "Fairy Dust",
+    "yields": "(O)872",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)72",
+        "count": 1
+      },
+      {
+        "item": "(O)595",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "bug_steak",
+    "name": "Bug Steak",
+    "yields": "(O)874",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)684",
+        "count": 10
+      }
+    ],
+    "source": "Crafting — Combat level 1"
+  },
+  {
+    "id": "quality_bobber",
+    "name": "Quality Bobber",
+    "yields": "(O)877",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)334",
+        "count": 1
+      },
+      {
+        "item": "(O)92",
+        "count": 20
+      },
+      {
+        "item": "(O)768",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "monster_musk",
+    "name": "Monster Musk",
+    "yields": "(O)879",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)767",
+        "count": 30
+      },
+      {
+        "item": "(O)766",
+        "count": 30
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "mini-obelisk",
+    "name": "Mini-Obelisk",
+    "yields": "(O)238",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 30
+      },
+      {
+        "item": "(O)768",
+        "count": 20
+      },
+      {
+        "item": "(O)336",
+        "count": 3
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "farm_computer",
+    "name": "Farm Computer",
+    "yields": "(O)239",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)122",
+        "count": 1
+      },
+      {
+        "item": "(O)787",
+        "count": 1
+      },
+      {
+        "item": "(O)338",
+        "count": 10
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "ostrich_incubator",
+    "name": "Ostrich Incubator",
+    "yields": "(O)254",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)881",
+        "count": 50
+      },
+      {
+        "item": "(O)709",
+        "count": 50
+      },
+      {
+        "item": "(O)848",
+        "count": 20
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "geode_crusher",
+    "name": "Geode Crusher",
+    "yields": "(O)182",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)336",
+        "count": 2
+      },
+      {
+        "item": "(O)390",
+        "count": 50
+      },
+      {
+        "item": "(O)72",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "solar_panel",
+    "name": "Solar Panel",
+    "yields": "(O)231",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)338",
+        "count": 10
+      },
+      {
+        "item": "(O)335",
+        "count": 5
+      },
+      {
+        "item": "(O)336",
+        "count": 5
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "bone_mill",
+    "name": "Bone Mill",
+    "yields": "(O)90",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)881",
+        "count": 10
+      },
+      {
+        "item": "(O)330",
+        "count": 3
+      },
+      {
+        "item": "(O)390",
+        "count": 20
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "thorns_ring",
+    "name": "Thorns Ring",
+    "yields": "(O)839",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)881",
+        "count": 50
+      },
+      {
+        "item": "(O)390",
+        "count": 50
+      },
+      {
+        "item": "(O)336",
+        "count": 1
+      }
+    ],
+    "source": "Crafting — Combat level 7"
+  },
+  {
+    "id": "glowstone_ring",
+    "name": "Glowstone Ring",
+    "yields": "(O)888",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)768",
+        "count": 5
+      },
+      {
+        "item": "(O)335",
+        "count": 5
+      }
+    ],
+    "source": "Crafting — Mining level 4"
+  },
+  {
+    "id": "heavy_tapper",
+    "name": "Heavy Tapper",
+    "yields": "(O)264",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 30
+      },
+      {
+        "item": "(O)910",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "hopper",
+    "name": "Hopper",
+    "yields": "(O)275",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)709",
+        "count": 10
+      },
+      {
+        "item": "(O)337",
+        "count": 1
+      },
+      {
+        "item": "(O)910",
+        "count": 1
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "magic_bait",
+    "name": "Magic Bait",
+    "yields": "(O)908",
+    "yieldCount": 5,
+    "ingredients": [
+      {
+        "item": "(O)909",
+        "count": 1
+      },
+      {
+        "item": "(O)684",
+        "count": 3
+      }
+    ],
+    "source": "Crafting"
+  },
+  {
+    "id": "fried_egg",
+    "name": "Fried Egg",
+    "yields": "(O)194",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "omelet",
+    "name": "Omelet",
+    "yields": "(O)195",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-5",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "salad",
+    "name": "Salad",
+    "yields": "(O)196",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)20",
+        "count": 1
+      },
+      {
+        "item": "(O)22",
+        "count": 1
+      },
+      {
+        "item": "(O)419",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "cheese_cauli.",
+    "name": "Cheese Cauli.",
+    "yields": "(O)197",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)190",
+        "count": 1
+      },
+      {
+        "item": "(O)424",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "baked_fish",
+    "name": "Baked Fish",
+    "yields": "(O)198",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)145",
+        "count": 1
+      },
+      {
+        "item": "(O)132",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "parsnip_soup",
+    "name": "Parsnip Soup",
+    "yields": "(O)199",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)24",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)419",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "vegetable_stew",
+    "name": "Vegetable Stew",
+    "yields": "(O)200",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)256",
+        "count": 1
+      },
+      {
+        "item": "(O)284",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "complete_breakfast",
+    "name": "Complete Breakfast",
+    "yields": "(O)201",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)194",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)210",
+        "count": 1
+      },
+      {
+        "item": "(O)211",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fried_calamari",
+    "name": "Fried Calamari",
+    "yields": "(O)202",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)151",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "strange_bun",
+    "name": "Strange Bun",
+    "yields": "(O)203",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)722",
+        "count": 1
+      },
+      {
+        "item": "(O)308",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "lucky_lunch",
+    "name": "Lucky Lunch",
+    "yields": "(O)204",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)154",
+        "count": 1
+      },
+      {
+        "item": "(O)229",
+        "count": 1
+      },
+      {
+        "item": "(O)597",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fried_mushroom",
+    "name": "Fried Mushroom",
+    "yields": "(O)205",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)404",
+        "count": 1
+      },
+      {
+        "item": "(O)257",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "yields": "(O)206",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      },
+      {
+        "item": "(O)424",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "bean_hotpot",
+    "name": "Bean Hotpot",
+    "yields": "(O)207",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)188",
+        "count": 2
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "glazed_yams",
+    "name": "Glazed Yams",
+    "yields": "(O)208",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)280",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "carp_surprise",
+    "name": "Carp Surprise",
+    "yields": "(O)209",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)142",
+        "count": 4
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "hashbrowns",
+    "name": "Hashbrowns",
+    "yields": "(O)210",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)192",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes",
+    "yields": "(O)211",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "salmon_dinner",
+    "name": "Salmon Dinner",
+    "yields": "(O)212",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)139",
+        "count": 1
+      },
+      {
+        "item": "(O)300",
+        "count": 1
+      },
+      {
+        "item": "(O)250",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fish_taco",
+    "name": "Fish Taco",
+    "yields": "(O)213",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)130",
+        "count": 1
+      },
+      {
+        "item": "(O)229",
+        "count": 1
+      },
+      {
+        "item": "(O)266",
+        "count": 1
+      },
+      {
+        "item": "(O)306",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "crispy_bass",
+    "name": "Crispy Bass",
+    "yields": "(O)214",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)136",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pepper_poppers",
+    "name": "Pepper Poppers",
+    "yields": "(O)215",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)260",
+        "count": 1
+      },
+      {
+        "item": "(O)424",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "yields": "(O)216",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "tom_kha_soup",
+    "name": "Tom Kha Soup",
+    "yields": "(O)218",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)88",
+        "count": 1
+      },
+      {
+        "item": "(O)720",
+        "count": 1
+      },
+      {
+        "item": "(O)404",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "trout_soup",
+    "name": "Trout Soup",
+    "yields": "(O)219",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)138",
+        "count": 1
+      },
+      {
+        "item": "(O)153",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "chocolate_cake",
+    "name": "Chocolate Cake",
+    "yields": "(O)220",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pink_cake",
+    "name": "Pink Cake",
+    "yields": "(O)221",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)254",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "rhubarb_pie",
+    "name": "Rhubarb Pie",
+    "yields": "(O)222",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)252",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "cookies",
+    "name": "Cookies",
+    "yields": "(O)223",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "spaghetti",
+    "name": "Spaghetti",
+    "yields": "(O)224",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fried_eel",
+    "name": "Fried Eel",
+    "yields": "(O)225",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)148",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "spicy_eel",
+    "name": "Spicy Eel",
+    "yields": "(O)226",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)148",
+        "count": 1
+      },
+      {
+        "item": "(O)260",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "sashimi",
+    "name": "Sashimi",
+    "yields": "(O)227",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-4",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "maki_roll",
+    "name": "Maki Roll",
+    "yields": "(O)228",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-4",
+        "count": 1
+      },
+      {
+        "item": "(O)152",
+        "count": 1
+      },
+      {
+        "item": "(O)423",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "tortilla",
+    "name": "Tortilla",
+    "yields": "(O)229",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)270",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "red_plate",
+    "name": "Red Plate",
+    "yields": "(O)230",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)266",
+        "count": 1
+      },
+      {
+        "item": "(O)264",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "eggplant_parm.",
+    "name": "Eggplant Parm.",
+    "yields": "(O)231",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)272",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "rice_pudding",
+    "name": "Rice Pudding",
+    "yields": "(O)232",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)423",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "ice_cream",
+    "name": "Ice Cream",
+    "yields": "(O)233",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "blueberry_tart",
+    "name": "Blueberry Tart",
+    "yields": "(O)234",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)258",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "autumn's_bounty",
+    "name": "Autumn's Bounty",
+    "yields": "(O)235",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)280",
+        "count": 1
+      },
+      {
+        "item": "(O)276",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pumpkin_soup",
+    "name": "Pumpkin Soup",
+    "yields": "(O)236",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)276",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "super_meal",
+    "name": "Super Meal",
+    "yields": "(O)237",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)278",
+        "count": 1
+      },
+      {
+        "item": "(O)282",
+        "count": 1
+      },
+      {
+        "item": "(O)274",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "cran._sauce",
+    "name": "Cran. Sauce",
+    "yields": "(O)238",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)282",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "stuffing",
+    "name": "Stuffing",
+    "yields": "(O)239",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)216",
+        "count": 1
+      },
+      {
+        "item": "(O)282",
+        "count": 1
+      },
+      {
+        "item": "(O)408",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "farmer's_lunch",
+    "name": "Farmer's Lunch",
+    "yields": "(O)240",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)195",
+        "count": 1
+      },
+      {
+        "item": "(O)24",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "survival_burger",
+    "name": "Survival Burger",
+    "yields": "(O)241",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)216",
+        "count": 1
+      },
+      {
+        "item": "(O)78",
+        "count": 1
+      },
+      {
+        "item": "(O)272",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "dish_o'_the_sea",
+    "name": "Dish o' The Sea",
+    "yields": "(O)242",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)131",
+        "count": 2
+      },
+      {
+        "item": "(O)210",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "miner's_treat",
+    "name": "Miner's Treat",
+    "yields": "(O)243",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)78",
+        "count": 2
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "roots_platter",
+    "name": "Roots Platter",
+    "yields": "(O)244",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)78",
+        "count": 1
+      },
+      {
+        "item": "(O)412",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "algae_soup",
+    "name": "Algae Soup",
+    "yields": "(O)456",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)153",
+        "count": 4
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pale_broth",
+    "name": "Pale Broth",
+    "yields": "(O)457",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)157",
+        "count": 2
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "plum_pudding",
+    "name": "Plum Pudding",
+    "yields": "(O)604",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)406",
+        "count": 2
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "artichoke_dip",
+    "name": "Artichoke Dip",
+    "yields": "(O)605",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)274",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "stir_fry",
+    "name": "Stir Fry",
+    "yields": "(O)606",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)78",
+        "count": 1
+      },
+      {
+        "item": "(O)404",
+        "count": 1
+      },
+      {
+        "item": "(O)250",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "roasted_hazelnuts",
+    "name": "Roasted Hazelnuts",
+    "yields": "(O)607",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)408",
+        "count": 3
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "pumpkin_pie",
+    "name": "Pumpkin Pie",
+    "yields": "(O)608",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)276",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "radish_salad",
+    "name": "Radish Salad",
+    "yields": "(O)609",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)247",
+        "count": 1
+      },
+      {
+        "item": "(O)419",
+        "count": 1
+      },
+      {
+        "item": "(O)264",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fruit_salad",
+    "name": "Fruit Salad",
+    "yields": "(O)610",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)258",
+        "count": 1
+      },
+      {
+        "item": "(O)254",
+        "count": 1
+      },
+      {
+        "item": "(O)634",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "blackberry_cobbler",
+    "name": "Blackberry Cobbler",
+    "yields": "(O)611",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)410",
+        "count": 2
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "cranberry_candy",
+    "name": "Cranberry Candy",
+    "yields": "(O)612",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)282",
+        "count": 1
+      },
+      {
+        "item": "(O)613",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "bruschetta",
+    "name": "Bruschetta",
+    "yields": "(O)618",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)216",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw",
+    "yields": "(O)648",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)266",
+        "count": 1
+      },
+      {
+        "item": "(O)419",
+        "count": 1
+      },
+      {
+        "item": "(O)306",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fiddlehead_risotto",
+    "name": "Fiddlehead Risotto",
+    "yields": "(O)649",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)247",
+        "count": 1
+      },
+      {
+        "item": "(O)259",
+        "count": 1
+      },
+      {
+        "item": "(O)248",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "poppyseed_muffin",
+    "name": "Poppyseed Muffin",
+    "yields": "(O)651",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)376",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "chowder",
+    "name": "Chowder",
+    "yields": "(O)727",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)372",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "lobster_bisque",
+    "name": "Lobster Bisque",
+    "yields": "(O)730",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)715",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "fish_stew",
+    "name": "Fish Stew",
+    "yields": "(O)728",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)716",
+        "count": 1
+      },
+      {
+        "item": "(O)719",
+        "count": 1
+      },
+      {
+        "item": "(O)722",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "escargot",
+    "name": "Escargot",
+    "yields": "(O)729",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)721",
+        "count": 1
+      },
+      {
+        "item": "(O)248",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "maple_bar",
+    "name": "Maple Bar",
+    "yields": "(O)731",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)724",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "crab_cakes",
+    "name": "Crab Cakes",
+    "yields": "(O)732",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)717",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)-5",
+        "count": 1
+      },
+      {
+        "item": "(O)247",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "triple_shot_espresso",
+    "name": "Triple Shot Espresso",
+    "yields": "(O)253",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)395",
+        "count": 3
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "shrimp_cocktail",
+    "name": "Shrimp Cocktail",
+    "yields": "(O)733",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)720",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      },
+      {
+        "item": "(O)16",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "seafoam_pudding",
+    "name": "Seafoam Pudding",
+    "yields": "(O)265",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)267",
+        "count": 1
+      },
+      {
+        "item": "(O)269",
+        "count": 1
+      },
+      {
+        "item": "(O)814",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "ginger_ale",
+    "name": "Ginger Ale",
+    "yields": "(O)903",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)829",
+        "count": 3
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "banana_pudding",
+    "name": "Banana Pudding",
+    "yields": "(O)904",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)91",
+        "count": 1
+      },
+      {
+        "item": "(O)-6",
+        "count": 1
+      },
+      {
+        "item": "(O)245",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "mango_sticky_rice",
+    "name": "Mango Sticky Rice",
+    "yields": "(O)905",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)834",
+        "count": 1
+      },
+      {
+        "item": "(O)88",
+        "count": 1
+      },
+      {
+        "item": "(O)423",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "poi",
+    "name": "Poi",
+    "yields": "(O)906",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)830",
+        "count": 4
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "tropical_curry",
+    "name": "Tropical Curry",
+    "yields": "(O)907",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)88",
+        "count": 1
+      },
+      {
+        "item": "(O)832",
+        "count": 1
+      },
+      {
+        "item": "(O)260",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "squid_ink_ravioli",
+    "name": "Squid Ink Ravioli",
+    "yields": "(O)921",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)814",
+        "count": 1
+      },
+      {
+        "item": "(O)246",
+        "count": 1
+      },
+      {
+        "item": "(O)256",
+        "count": 1
+      }
+    ],
+    "source": "Cooking"
+  },
+  {
+    "id": "moss_soup",
+    "name": "Moss Soup",
+    "yields": "(O)MossSoup",
+    "yieldCount": 1,
+    "ingredients": [
+      {
+        "item": "(O)Moss",
+        "count": 20
+      }
+    ],
+    "source": "Cooking"
   }
 ]
