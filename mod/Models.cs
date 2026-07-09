@@ -11,6 +11,11 @@ record GiftData(
     [property: JsonPropertyName("hates")]    List<string> Hates
 );
 
+record IngredientRef(
+    [property: JsonPropertyName("name")]  string Name,
+    [property: JsonPropertyName("count")] int Count
+);
+
 record RecipeRef(
     [property: JsonPropertyName("recipeId")] string RecipeId,
     [property: JsonPropertyName("name")]     string Name,
@@ -32,6 +37,7 @@ record ItemData(
     [property: JsonPropertyName("edible")]       bool Edible,
     [property: JsonPropertyName("energy")]       int Energy,
     [property: JsonPropertyName("health")]       int Health,
+    [property: JsonPropertyName("craftedFrom")]  List<IngredientRef> CraftedFrom,
     [property: JsonPropertyName("craftingUses")] List<RecipeRef> CraftingUses,
     [property: JsonPropertyName("bundles")]      List<BundleRef> Bundles,
     [property: JsonPropertyName("gifts")]        GiftData Gifts

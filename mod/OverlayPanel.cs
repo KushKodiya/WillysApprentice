@@ -46,18 +46,48 @@ class OverlayPanel
     {
         if (_state == State.Hidden || _lines.Count == 0) return;
 
-        int height = _lines.Count * LineHeight + Pad * 2;
+        int innerWidth = Width - Pad * 2;
+        var display = WrapLines(innerWidth);
+
+        int height = display.Count * LineHeight + Pad * 2;
         int x = 8;
         int y = Game1.viewport.Height - height - 8;
 
         IClickableMenu.drawTextureBox(b, x, y, Width, height, Color.White);
 
-        for (int i = 0; i < _lines.Count; i++)
+        for (int i = 0; i < display.Count; i++)
             b.DrawString(
                 Game1.smallFont,
-                _lines[i],
+                display[i],
                 new Vector2(x + Pad, y + Pad + i * LineHeight),
                 Game1.textColor);
+    }
+
+    private List<string> WrapLines(int innerWidth)
+    {
+        var result = new List<string>();
+        foreach (var line in _lines)
+        {
+            if (Game1.smallFont.MeasureString(line).X <= innerWidth)
+            {
+                result.Add(line);
+                continue;
+            }
+            string current = "";
+            foreach (var word in line.Split(' '))
+            {
+                string candidate = current.Length == 0 ? word : current + " " + word;
+                if (Game1.smallFont.MeasureString(candidate).X <= innerWidth)
+                    current = candidate;
+                else
+                {
+                    if (current.Length > 0) result.Add(current);
+                    current = word;
+                }
+            }
+            if (current.Length > 0) result.Add(current);
+        }
+        return result;
     }
 
     private static List<string> BuildLines(ItemData? item)
@@ -70,11 +100,11 @@ class OverlayPanel
             $"{item.Category}  ·  Sell: {item.SellPrice}g",
         };
 
-        if (!string.IsNullOrEmpty(item.Description))
-            lines.Add(item.Description.Length > 46 ? item.Description[..43] + "…" : item.Description);
+        if (item.CraftedFrom.Count > 0)
+            lines.Add("Craft: " + string.Join(", ", item.CraftedFrom.Select(i => $"{i.Name} x{i.Count}")));
 
         if (item.CraftingUses.Count > 0)
-            lines.Add("Crafting: " + string.Join(", ", item.CraftingUses.Select(r => r.Name)));
+            lines.Add("Used in: " + string.Join(", ", item.CraftingUses.Select(r => r.Name)));
 
         if (item.Bundles.Count > 0)
             lines.Add("Bundle: " + string.Join(", ", item.Bundles.Select(b => b.Name)));

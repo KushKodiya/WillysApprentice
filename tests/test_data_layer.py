@@ -17,29 +17,23 @@ def test_item_with_all_data():
     item = d.get("(O)128")
     assert item is not None
     assert item["name"] == "Pufferfish"
-    assert any(r["recipeId"] == "maki_roll" for r in item["craftingUses"])
-    assert any(r["recipeId"] == "sashimi" for r in item["craftingUses"])
-    assert any(b["bundleId"] == "ocean_fish" for b in item["bundles"])
-    assert "Sebastian" in item["gifts"]["loves"]
-    assert "Abigail" in item["gifts"]["dislikes"]
+    assert any(b["bundleId"] == "fish_tank_10" for b in item["bundles"])
+    assert "Abigail" in item["gifts"]["loves"]
+    assert "Harvey" in item["gifts"]["dislikes"]
 
 
 def test_item_no_crafting_uses():
     d = _layer()
-    item = d.get("(O)16")
+    item = d.get("(O)128")  # Pufferfish — not an ingredient in any recipe
     assert item is not None
     assert item["craftingUses"] == []
-    assert any(b["bundleId"] == "spring_foraging" for b in item["bundles"])
 
 
-def test_big_craftable_no_extras():
+def test_crafted_from():
     d = _layer()
-    item = d.get("(BC)15")
+    item = d.get("(O)322")  # Wood Fence — crafted from Wood x2
     assert item is not None
-    assert item["name"] == "Chest"
-    assert item["craftingUses"] == []
-    assert item["bundles"] == []
-    assert item["gifts"]["loves"] == []
+    assert item["craftedFrom"] == [{"name": "Wood", "count": 2}]
 
 
 def test_miss_returns_none():
@@ -47,10 +41,10 @@ def test_miss_returns_none():
 
 
 def test_count():
-    assert _layer().count == 4
+    assert _layer().count == 2199
 
 
-def test_gifts_fallback_for_unknown_id():
+def test_gifts_for_blueberry():
     d = _layer()
     item = d.get("(O)258")
     assert item is not None

@@ -9,7 +9,7 @@ namespace WillysApprentice;
 
 class ModConfig
 {
-    public SButton HotKey { get; set; } = SButton.Tab;
+    public SButton HotKey { get; set; } = SButton.F5;
     public int ServerPort { get; set; } = 5310;
 }
 

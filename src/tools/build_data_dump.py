@@ -62,22 +62,49 @@ def _load(raw_dir: pathlib.Path, filename: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _load_strings(raw_dir: pathlib.Path) -> dict:
-    """Load StringsObjects.json if present; returns {} if missing (graceful degradation)."""
-    path = raw_dir / "StringsObjects.json"
+def _load_strings(raw_dir: pathlib.Path, filename: str = "StringsObjects.json") -> dict:
+    """Load a strings JSON file if present; returns {} if missing (graceful degradation)."""
+    path = raw_dir / filename
     if not path.exists():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-_LOCTEXT_PREFIX = "[LocalizedText Strings\\Objects:"
-
 def _resolve_text(value: str, strings: dict) -> str:
-    """Resolve [LocalizedText Strings\\Objects:Key] tokens; return value unchanged if not a token."""
-    if not value.startswith(_LOCTEXT_PREFIX):
+    """Resolve [LocalizedText SomePath:Key] tokens against strings dict.
+
+    Works for any asset's strings file — key is extracted from after the last colon.
+    Returns value unchanged if not a token or key is absent from strings.
+    """
+    if not value.startswith("[LocalizedText "):
         return value
-    key = value[len(_LOCTEXT_PREFIX):].rstrip("]")
-    return strings.get(key, value)  # leave token in place if key missing (visible in output)
+    colon = value.rfind(":")
+    if colon == -1:
+        return value
+    key = value[colon + 1:].rstrip("]")
+    return strings.get(key, value)
+
+
+def _json_item(qid: str, legacy_id, name: str, category: str, sell_price: int) -> dict:
+    """Base item dict for non-edible assets (bc, weapons, tools, furniture, clothing)."""
+    return {
+        "id": qid,
+        "legacyId": legacy_id,
+        "name": name,
+        "category": category,
+        "description": "",
+        "sellPrice": sell_price,
+        "edible": False,
+        "energy": 0,
+        "health": 0,
+    }
+
+
+def _resolved_name(obj: dict, strings: dict) -> str:
+    """Resolve DisplayName token → fallback to internal Name field."""
+    raw = obj.get("DisplayName") or obj.get("Name", "")
+    resolved = _resolve_text(raw, strings)
+    return obj.get("Name", raw) if resolved.startswith("[LocalizedText") else resolved
 
 
 # --- Items --------------------------------------------------------------------
@@ -91,11 +118,7 @@ def transform_items(raw: dict, strings: dict) -> dict:
         is_edible = edibility != -300
         # Category: use human-readable Type string (e.g. "Fish", "Vegetable")
         category = obj.get("Type") or str(obj.get("Category", ""))
-        # Prefer resolved DisplayName over internal Name; fall back to Name if token unresolved
-        raw_display = obj.get("DisplayName") or obj.get("Name", "")
-        name = _resolve_text(raw_display, strings)
-        if name.startswith("[LocalizedText"):  # strings file missing or key absent
-            name = obj.get("Name", raw_display)
+        name = _resolved_name(obj, strings)
         raw_desc = obj.get("Description", "")
         description = _resolve_text(raw_desc, strings)
         if description.startswith("[LocalizedText"):
@@ -112,6 +135,102 @@ def transform_items(raw: dict, strings: dict) -> dict:
             "energy": edibility if is_edible else 0,
             "health": int(edibility * 0.45) if is_edible else 0,
         }
+    return out
+
+
+def transform_big_craftables(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, obj in raw.items():
+        qid = f"(BC){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        # BigCraftables.Price is the shop purchase price, not sell-back value — use 0
+        out[qid] = _json_item(qid, legacy_id, _resolved_name(obj, strings), "Craftable", 0)
+    return out
+
+
+_WEAPON_TYPES = {0: "Sword", 1: "Dagger", 2: "Club", 3: "Slingshot"}
+
+def transform_weapons(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, obj in raw.items():
+        qid = f"(W){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        category = _WEAPON_TYPES.get(obj.get("Type", -1), "Weapon")
+        out[qid] = _json_item(qid, legacy_id, _resolved_name(obj, strings), category, 0)
+    return out
+
+
+def transform_tools(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, obj in raw.items():
+        qid = f"(T){item_id}"
+        sale = obj.get("SalePrice", -1)
+        out[qid] = _json_item(qid, None, _resolved_name(obj, strings), "Tool", sale if sale >= 0 else 0)
+    return out
+
+
+def transform_furniture(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, value in raw.items():
+        parts = value.split("/")
+        if len(parts) < 8:
+            continue
+        qid = f"(F){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        name = _resolve_text(parts[7], strings)
+        if name.startswith("[LocalizedText"):
+            name = parts[0]
+        try:
+            price = int(parts[5])
+        except ValueError:
+            price = 0
+        out[qid] = _json_item(qid, legacy_id, name, parts[1], price)
+    return out
+
+
+def transform_hats(raw: dict) -> dict:
+    out = {}
+    for item_id, value in raw.items():
+        parts = value.split("/")
+        if len(parts) < 6:
+            continue
+        qid = f"(H){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        out[qid] = _json_item(qid, legacy_id, parts[5] or parts[0], "Hat", 0)
+    return out
+
+
+def transform_boots(raw: dict) -> dict:
+    out = {}
+    for item_id, value in raw.items():
+        parts = value.split("/")
+        if len(parts) < 7:
+            continue
+        qid = f"(B){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        try:
+            price = int(parts[2])
+        except ValueError:
+            price = 0
+        out[qid] = _json_item(qid, legacy_id, parts[6] or parts[0], "Boots", price)
+    return out
+
+
+def transform_pants(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, obj in raw.items():
+        qid = f"(P){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        out[qid] = _json_item(qid, legacy_id, _resolved_name(obj, strings), "Pants", obj.get("Price", 0))
+    return out
+
+
+def transform_shirts(raw: dict, strings: dict) -> dict:
+    out = {}
+    for item_id, obj in raw.items():
+        qid = f"(S){item_id}"
+        legacy_id = int(item_id) if str(item_id).isdigit() else None
+        out[qid] = _json_item(qid, legacy_id, _resolved_name(obj, strings), "Shirt", obj.get("Price", 0))
     return out
 
 
@@ -469,27 +588,55 @@ def main() -> None:
 
     print(f"Reading from: {raw_dir.resolve()}")
 
-    objects      = _load(raw_dir, "Objects.json")
-    crafting     = _load(raw_dir, "CraftingRecipes.json")
-    cooking      = _load(raw_dir, "CookingRecipes.json")
-    bundles_raw  = _load(raw_dir, "Bundles.json")
-    gift_tastes  = _load(raw_dir, "NPCGiftTastes.json")
-    strings      = _load_strings(raw_dir)
+    objects       = _load(raw_dir, "Objects.json")
+    crafting      = _load(raw_dir, "CraftingRecipes.json")
+    cooking       = _load(raw_dir, "CookingRecipes.json")
+    bundles_raw   = _load(raw_dir, "Bundles.json")
+    gift_tastes   = _load(raw_dir, "NPCGiftTastes.json")
+    bc_raw        = _load(raw_dir, "BigCraftables.json")
+    weapons_raw   = _load(raw_dir, "Weapons.json")
+    tools_raw     = _load(raw_dir, "Tools.json")
+    furniture_raw = _load(raw_dir, "Furniture.json")
+    hats_raw      = _load(raw_dir, "Hats.json")
+    boots_raw     = _load(raw_dir, "Boots.json")
+    pants_raw     = _load(raw_dir, "Pants.json")
+    shirts_raw    = _load(raw_dir, "Shirts.json")
 
-    if strings:
-        print(f"  Loaded StringsObjects.json ({len(strings)} keys) — DisplayNames will be resolved.")
-    else:
-        print("  StringsObjects.json not found — using internal Name field (run: patch export Strings/Objects).")
+    # Strings files — optional; fall back to internal Name if absent
+    str_files = {
+        "objects":   "StringsObjects.json",
+        "bc":        "StringsBigCraftables.json",
+        "weapons":   "StringsWeapons.json",
+        "tools":     "StringsTools.json",
+        "furniture": "StringsFurniture.json",
+        "pants":     "StringsPants.json",
+        "shirts":    "StringsShirts.json",
+    }
+    strings = {k: _load_strings(raw_dir, v) for k, v in str_files.items()}
+    for k, v in str_files.items():
+        present = (raw_dir / v).exists()
+        state = f"{len(strings[k])} keys" if present else "missing — falling back to internal Name"
+        print(f"  {v}: {state}")
 
-    items   = transform_items(objects, strings)
+    items = {
+        **transform_items(objects, strings["objects"]),
+        **transform_big_craftables(bc_raw, strings["bc"]),
+        **transform_weapons(weapons_raw, strings["weapons"]),
+        **transform_tools(tools_raw, strings["tools"]),
+        **transform_furniture(furniture_raw, strings["furniture"]),
+        **transform_hats(hats_raw),
+        **transform_boots(boots_raw),
+        **transform_pants(pants_raw, strings["pants"]),
+        **transform_shirts(shirts_raw, strings["shirts"]),
+    }
     recipes = transform_recipes(crafting, cooking)
     bundles = transform_bundles(bundles_raw)
     gifts   = transform_gifts(gift_tastes, objects)
 
-    _sample(f"items.json  (keyed by qualified id)", items, args.sample)
-    _sample(f"recipes.json", recipes, args.sample)
-    _sample(f"bundles.json", bundles, args.sample)
-    _sample(f"gifts.json  (keyed by qualified id)", gifts, args.sample)
+    _sample("items.json  (keyed by qualified id)", items, args.sample)
+    _sample("recipes.json", recipes, args.sample)
+    _sample("bundles.json", bundles, args.sample)
+    _sample("gifts.json  (keyed by qualified id)", gifts, args.sample)
 
     if not args.write:
         print("\n[dry-run] Pass --write to overwrite data/*.json")
