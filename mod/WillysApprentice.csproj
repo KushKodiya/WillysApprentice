@@ -9,4 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.*" />
   </ItemGroup>
+  <ItemGroup>
+    <!-- Wiki data linked from project root; ships in mod's data/ folder -->
+    <Content Include="../data/items.json"   Link="data/items.json"   CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../data/recipes.json" Link="data/recipes.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../data/bundles.json" Link="data/bundles.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../data/gifts.json"   Link="data/gifts.json"   CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>

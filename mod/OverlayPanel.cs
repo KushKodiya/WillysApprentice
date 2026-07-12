@@ -9,42 +9,29 @@ namespace WillysApprentice;
 
 class OverlayPanel
 {
-    private enum State { Hidden, Loading, Loaded }
-    private State _state = State.Hidden;
+    private bool _visible;
     private List<string> _lines = new();
     private const int Width = 340;
     private const int LineHeight = 24;
     private const int Pad = 16;
 
-    public bool IsVisible => _state != State.Hidden;
-
-    public void ShowLoading(string id)
-    {
-        _state = State.Loading;
-        _lines = new List<string> { $"Loading {id}…" };
-    }
+    public bool IsVisible => _visible;
 
     public void ShowItem(ItemData? item)
     {
-        _state = State.Loaded;
+        _visible = true;
         _lines = BuildLines(item);
-    }
-
-    public void ShowOffline()
-    {
-        _state = State.Loaded;
-        _lines = new List<string> { "Wiki offline — run: python -m src.server" };
     }
 
     public void Clear()
     {
-        _state = State.Hidden;
+        _visible = false;
         _lines = new();
     }
 
     public void Draw(SpriteBatch b)
     {
-        if (_state == State.Hidden || _lines.Count == 0) return;
+        if (!_visible || _lines.Count == 0) return;
 
         int innerWidth = Width - Pad * 2;
         var display = WrapLines(innerWidth);
